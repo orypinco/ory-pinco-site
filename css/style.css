@@ -322,6 +322,13 @@ html[dir="rtl"] .process-flow li::after { content: "\2190"; }
 .article-cta h2 { font-family: var(--font-head); font-weight: 700; color: var(--navy); font-size: 1.4rem; margin: 0 0 8px; }
 .article-cta p { color: var(--muted); font-size: 1rem; margin: 0 0 22px; }
 
+.related-insights { max-width: 680px; margin: 60px auto 0; }
+.related-insights h2 { font-family: var(--font-head); font-weight: 700; font-size: 0.86rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber-deep); margin: 0 0 20px; }
+.related-insights-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.related-insights-list a { display: block; font-family: var(--font-head); font-weight: 600; font-size: 0.98rem; color: var(--navy); line-height: 1.4; padding: 18px 20px; background: var(--paper); border-radius: 4px; }
+.related-insights-list a:hover { color: var(--amber-deep); }
+@media (max-width: 620px) { .related-insights-list { grid-template-columns: 1fr; } }
+
 .article-nav { max-width: 680px; margin: 46px auto 0; display: flex; justify-content: space-between; gap: 24px; border-top: 1px solid var(--line); padding-top: 28px; }
 .article-nav-link { display: flex; flex-direction: column; gap: 4px; max-width: 45%; color: var(--muted); }
 .article-nav-link:last-child { text-align: end; align-items: flex-end; }

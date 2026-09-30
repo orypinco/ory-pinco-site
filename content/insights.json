@@ -29,6 +29,24 @@
         "title": "Why Romania? When Does It Make Sense to Build Your Next European Operation Here?",
         "excerpt": "Romania is rarely evaluated alone. A practical look at when it's the right fit for your next operation.",
         "image": "/images/insights-why-romania.webp"
+      },
+      {
+        "slug": "eor-srl-or-branch-romania",
+        "title": "EOR, SRL or Branch? Choosing the Right Setup for Your Business in Romania",
+        "excerpt": "Choosing how to enter Romania is one of the first strategic decisions international companies need to make.",
+        "image": "/images/insights-eor-srl-branch.webp"
+      },
+      {
+        "slug": "romania-company-formation",
+        "title": "Romania Company Formation: Choosing the Right Structure for Your Business",
+        "excerpt": "Setting up a company in Romania is straightforward. The real decision is which structure supports your goals.",
+        "image": "/images/insights-company-formation.webp"
+      },
+      {
+        "slug": "romania-tax-basics",
+        "title": "Romania Tax Basics: What International Companies Should Know Before Expanding",
+        "excerpt": "Understanding the Romanian tax environment is an important part of planning a successful market entry.",
+        "image": "/images/insights-tax-basics.webp"
       }
     ]
   }
