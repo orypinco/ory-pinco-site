@@ -49,5 +49,56 @@
         "image": "/images/insights-tax-basics.webp"
       }
     ]
+  },
+  "he": {
+    "hero": {
+      "eyebrow": "תובנות",
+      "title": "תובנות להקמה ולצמיחה של עסק ברומניה",
+      "intro": "תובנות מעשיות בנושאי כניסה לשוק, גיוס עובדים, תפעול ופיתוח עסקי עבור חברות בינלאומיות ששוקלות פעילות ברומניה."
+    },
+    "articles": [
+      {
+        "slug": "romania-market-entry-5-questions",
+        "title": "חושבים להיכנס לשוק הרומני? התחילו עם 5 השאלות האלה",
+        "excerpt": "לפני שמשקיעים תקציב וכוח אדם ברומניה, כדאי לענות קודם על חמש שאלות מעשיות.",
+        "image": "/images/insights-market-entry.webp"
+      },
+      {
+        "slug": "setting-up-a-company-in-romania",
+        "title": "להקים חברה ברומניה זה החלק הקל. לבנות את הפעילות זה מה שחשוב.",
+        "excerpt": "ההקמה היא פורמליות. מה שבאמת קובע הצלחה הוא כל מה שקורה אחריה.",
+        "image": "/images/insights-setting-up-operations.webp"
+      },
+      {
+        "slug": "hiring-in-romania",
+        "title": "גיוס עובדים ברומניה: מה חברות בינלאומיות צריכות לדעת לפני בניית צוות מקומי",
+        "excerpt": "גישה לכוח אדם איכותי לא אומרת שגיוס קורה מאליו. מה כדאי לדעת לפני בניית צוות מקומי.",
+        "image": "/images/insights-hiring.webp"
+      },
+      {
+        "slug": "why-romania-european-operations",
+        "title": "למה רומניה? מתי נכון להקים כאן את הפעילות האירופית הבאה שלכם?",
+        "excerpt": "רומניה כמעט אף פעם לא נבחנת לבד. מבט מעשי על מתי היא הבחירה הנכונה לפעילות הבאה שלכם.",
+        "image": "/images/insights-why-romania.webp"
+      },
+      {
+        "slug": "eor-srl-or-branch-romania",
+        "title": "EOR, SRL או סניף? איך לבחור את המבנה הנכון לפעילות שלכם ברומניה",
+        "excerpt": "הבחירה איך להיכנס לרומניה היא אחת ההחלטות האסטרטגיות הראשונות שחברות בינלאומיות צריכות לקבל.",
+        "image": "/images/insights-eor-srl-branch.webp"
+      },
+      {
+        "slug": "romania-company-formation",
+        "title": "הקמת חברה ברומניה: איך לבחור את המבנה הנכון לעסק שלכם",
+        "excerpt": "הקמת חברה ברומניה היא תהליך פשוט. ההחלטה האמיתית היא איזה מבנה תומך במטרות שלכם.",
+        "image": "/images/insights-company-formation.webp"
+      },
+      {
+        "slug": "romania-tax-basics",
+        "title": "מיסוי ברומניה: מה חברות בינלאומיות צריכות לדעת לפני ההתרחבות",
+        "excerpt": "הבנת סביבת המיסוי ברומניה היא חלק חשוב בתכנון כניסה מוצלחת לשוק.",
+        "image": "/images/insights-tax-basics.webp"
+      }
+    ]
   }
 }

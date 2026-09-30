@@ -163,29 +163,37 @@
       .then(function (res) { return res.ok ? res.json() : null; })
       .then(function (data) {
         if (!data || !data[lang]) return;
-        if (grid) renderInsightsGrid(grid, data[lang].articles);
+        if (grid) renderInsightsGrid(grid, data[lang].articles, lang);
         if (nav) renderArticleNav(nav, data[lang].articles, lang);
         initReveals();
       })
       .catch(function () { /* keep baked-in fallback content */ });
   }
 
-  function renderInsightsGrid(wrap, articles) {
+  var INSIGHTS_I18N = {
+    en: { readMore: "Read more &rarr;", prevDir: "&larr; Previous", nextDir: "Next &rarr;" },
+    he: { readMore: "קרא עוד &larr;", prevDir: "&rarr; הקודם", nextDir: "הבא &larr;" }
+  };
+
+  function renderInsightsGrid(wrap, articles, lang) {
     if (!Array.isArray(articles)) return;
+    var strings = INSIGHTS_I18N[lang] || INSIGHTS_I18N.en;
     wrap.innerHTML = "";
     articles.forEach(function (a) {
+      var href = "/" + lang + "/insights/" + a.slug + "/";
       var card = el("div", "insight-card reveal");
       card.innerHTML =
-        '<a href="/en/insights/' + a.slug + '/" class="insight-card-image"><img src="' + a.image + '" alt="" loading="lazy"></a>' +
-        '<h3><a href="/en/insights/' + a.slug + '/">' + a.title + '</a></h3>' +
+        '<a href="' + href + '" class="insight-card-image"><img src="' + a.image + '" alt="" loading="lazy"></a>' +
+        '<h3><a href="' + href + '">' + a.title + '</a></h3>' +
         '<p>' + a.excerpt + '</p>' +
-        '<a href="/en/insights/' + a.slug + '/" class="more-link">Read more &rarr;</a>';
+        '<a href="' + href + '" class="more-link">' + strings.readMore + '</a>';
       wrap.appendChild(card);
     });
   }
 
   function renderArticleNav(wrap, articles, lang) {
     if (!Array.isArray(articles)) return;
+    var strings = INSIGHTS_I18N[lang] || INSIGHTS_I18N.en;
     var slug = wrap.getAttribute("data-current-slug");
     var index = -1;
     articles.forEach(function (a, i) { if (a.slug === slug) index = i; });
@@ -196,7 +204,7 @@
     if (prev) {
       var prevLink = el("a", "article-nav-link");
       prevLink.href = "/" + lang + "/insights/" + prev.slug + "/";
-      prevLink.innerHTML = '<span class="article-nav-dir">&larr; Previous</span><span class="article-nav-title">' + prev.title + '</span>';
+      prevLink.innerHTML = '<span class="article-nav-dir">' + strings.prevDir + '</span><span class="article-nav-title">' + prev.title + '</span>';
       wrap.appendChild(prevLink);
     } else {
       wrap.appendChild(el("span", ""));
@@ -204,7 +212,7 @@
     if (next) {
       var nextLink = el("a", "article-nav-link");
       nextLink.href = "/" + lang + "/insights/" + next.slug + "/";
-      nextLink.innerHTML = '<span class="article-nav-dir">Next &rarr;</span><span class="article-nav-title">' + next.title + '</span>';
+      nextLink.innerHTML = '<span class="article-nav-dir">' + strings.nextDir + '</span><span class="article-nav-title">' + next.title + '</span>';
       wrap.appendChild(nextLink);
     }
   }

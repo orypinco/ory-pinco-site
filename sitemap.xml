@@ -72,13 +72,116 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/about/"/>
   </url>
 
-  <url><loc>https://www.orypinco.com/en/insights/</loc></url>
-  <url><loc>https://www.orypinco.com/en/insights/romania-market-entry-5-questions/</loc></url>
-  <url><loc>https://www.orypinco.com/en/insights/setting-up-a-company-in-romania/</loc></url>
-  <url><loc>https://www.orypinco.com/en/insights/hiring-in-romania/</loc></url>
-  <url><loc>https://www.orypinco.com/en/insights/why-romania-european-operations/</loc></url>
-  <url><loc>https://www.orypinco.com/en/insights/eor-srl-or-branch-romania/</loc></url>
-  <url><loc>https://www.orypinco.com/en/insights/romania-company-formation/</loc></url>
-  <url><loc>https://www.orypinco.com/en/insights/romania-tax-basics/</loc></url>
+  <url>
+    <loc>https://www.orypinco.com/en/insights/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/en/insights/romania-market-entry-5-questions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/romania-market-entry-5-questions/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/romania-market-entry-5-questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/romania-market-entry-5-questions/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/romania-market-entry-5-questions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/romania-market-entry-5-questions/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/romania-market-entry-5-questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/romania-market-entry-5-questions/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/en/insights/setting-up-a-company-in-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/setting-up-a-company-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/setting-up-a-company-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/setting-up-a-company-in-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/setting-up-a-company-in-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/setting-up-a-company-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/setting-up-a-company-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/setting-up-a-company-in-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/en/insights/hiring-in-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/hiring-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/hiring-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/hiring-in-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/hiring-in-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/hiring-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/hiring-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/hiring-in-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/en/insights/why-romania-european-operations/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/why-romania-european-operations/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/why-romania-european-operations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/why-romania-european-operations/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/why-romania-european-operations/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/why-romania-european-operations/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/why-romania-european-operations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/why-romania-european-operations/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/en/insights/eor-srl-or-branch-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/eor-srl-or-branch-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/eor-srl-or-branch-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/eor-srl-or-branch-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/eor-srl-or-branch-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/eor-srl-or-branch-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/eor-srl-or-branch-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/eor-srl-or-branch-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/en/insights/romania-company-formation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/romania-company-formation/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/romania-company-formation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/romania-company-formation/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/romania-company-formation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/romania-company-formation/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/romania-company-formation/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/romania-company-formation/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/en/insights/romania-tax-basics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/romania-tax-basics/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/romania-tax-basics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/romania-tax-basics/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/romania-tax-basics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/romania-tax-basics/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/romania-tax-basics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/romania-tax-basics/"/>
+  </url>
 
 </urlset>

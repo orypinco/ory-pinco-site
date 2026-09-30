@@ -244,7 +244,7 @@
   },
   "he": {
     "meta": { "email": "office@rainbow-xpress.com", "phone": "+40 775 467 883", "telLink": "+40775467883" },
-    "nav": { "services": "מה אנחנו עושים", "why": "למה רומניה", "bridge": "דסק ישראל", "about": "אודות", "cta": "בואו נדבר" },
+    "nav": { "services": "מה אנחנו עושים", "why": "למה רומניה", "bridge": "דסק ישראל", "about": "אודות", "insights": "תובנות", "cta": "בואו נדבר" },
     "home": {
       "hero": {
         "eyebrow": "השותף שלכם לצמיחה ברומניה",
