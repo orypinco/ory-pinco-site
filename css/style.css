@@ -174,15 +174,6 @@ a { color: inherit; text-decoration: none; }
 .industry-item .rule { width: 16px; height: 2px; background: var(--amber); margin: 8px 0 0; }
 @media (max-width: 700px) { .industry-item { width: calc(50% - 12px); } }
 
-/* ---------- Value Proposition ---------- */
-.value-prop { padding: 90px 0; background: var(--paper); }
-.value-prop-inner { max-width: 880px; }
-.value-prop p { color: var(--muted); font-size: 1.05rem; margin: 0 0 18px; }
-.value-prop-statement {
-  font-family: var(--font-head); font-size: 1.2rem; color: var(--navy);
-  font-weight: 700; margin: 40px 0 26px; line-height: 1.4;
-}
-
 /* ---------- About ---------- */
 .about { padding: 100px 0; background: var(--white); }
 .about-inner { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 64px; align-items: start; }
@@ -260,15 +251,6 @@ a { color: inherit; text-decoration: none; }
   .track-card:nth-child(n) { padding-inline-start: 0; }
 }
 
-/* ---------- Strategy ---------- */
-.strategy { padding: 100px 0; background: var(--paper); }
-.strategy .container { max-width: 860px; }
-.strategy p:not(.eyebrow) { color: var(--muted); font-size: 1.02rem; margin: 0 0 20px; max-width: 680px; }
-.strategy-languages { margin: 32px 0 0; }
-.strategy-callout { margin-top: 44px; background: var(--white); border-inline-start: 3px solid var(--amber); padding: 26px 28px; border-radius: 4px; }
-.strategy-callout .callout-label { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--amber-deep); font-weight: 700; margin: 0 0 10px; }
-.strategy-callout p { color: var(--ink); margin: 0; font-size: 0.97rem; max-width: none; }
-
 /* ---------- Contact ---------- */
 .contact { padding: 110px 0; background: var(--navy); }
 .contact .eyebrow { color: var(--amber); }
@@ -308,9 +290,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- RTL tweaks ---------- */
 html[dir="rtl"] .hero-actions, html[dir="rtl"] .contact-details, html[dir="rtl"] .footer-langs { direction: rtl; }
-html[dir="rtl"] .pull-quote, html[dir="rtl"] .strategy-callout {
+html[dir="rtl"] .pull-quote {
   border-inline-start: none; border-inline-end: 3px solid var(--amber);
   padding-inline-start: 0;
 }
-html[dir="rtl"] .strategy-callout { padding-inline-end: 28px; }
-html[dir="rtl"] .hero::after { inset-inline-end: auto; inset-inline-start: 140px; }
