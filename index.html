@@ -2,31 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="refresh" content="0; url=/en/">
 <meta name="robots" content="noindex">
 <title>Ory Pinco</title>
 <link rel="canonical" href="https://www.orypinco.com/en/">
 </head>
 <body>
 <p>Ory Pinco &mdash; redirecting to <a href="/en/">the site</a>.</p>
-
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-  var hash = window.location.hash || "";
-  var isIdentityLink = /invite_token|recovery_token|confirmation_token|email_change_token/.test(hash);
-
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", function (user) {
-      if (!user) {
-        window.netlifyIdentity.on("login", function () {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-
-  if (!isIdentityLink) {
-    location.replace("/en/");
-  }
-</script>
+<script>location.replace("/en/");</script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: orypinco/ory-pinco-site
   branch: main
 
 media_folder: "content/uploads"
