@@ -36,7 +36,8 @@
     renderTextList("trade-list", get(dict, "trade.items"));
     renderHowSteps(get(dict, "how.steps"));
     renderTrackGrid(get(dict, "track.stats"));
-    renderWhyGrid(get(dict, "why.items"));
+    renderWhyStrip(get(dict, "why.items"));
+    renderIndustries(get(dict, "industries.items"));
     renderCredentials(get(dict, "about.credentials"));
     renderInterestOptions(get(dict, "contact.form.options"));
 
@@ -103,16 +104,40 @@
     });
   }
 
-  function renderWhyGrid(items) {
-    var wrap = document.getElementById("why-grid");
+  function renderWhyStrip(items) {
+    var wrap = document.getElementById("why-strip");
     if (!wrap || !Array.isArray(items)) return;
     wrap.innerHTML = "";
     items.forEach(function (item, i) {
-      var card = el("div", "why-card");
+      var card = el("div");
       card.innerHTML =
-        '<span class="why-index">' + String(i + 1).padStart(2, "0") + '</span>' +
+        '<p class="why-num">' + String(i + 1).padStart(2, "0") + '</p>' +
         '<h3>' + item.title + '</h3><p>' + item.desc + '</p>';
       wrap.appendChild(card);
+    });
+  }
+
+  var INDUSTRY_ICONS = {
+    saas: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 26a6 6 0 0 1 1-11.9A8 8 0 0 1 28 16a6 6 0 0 1-1 10H12z"/></svg>',
+    ai: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="14" width="12" height="12" rx="2"/><path d="M20 8v4M20 28v4M8 20h4M28 20h4M11.5 11.5l2.8 2.8M25.7 25.7l2.8 2.8M28.5 11.5l-2.8 2.8M14.3 25.7l-2.8 2.8"/></svg>',
+    cyber: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7l11 4v9c0 7-4.6 11.6-11 13-6.4-1.4-11-6-11-13v-9l11-4z"/></svg>',
+    fintech: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="20" r="12"/><path d="M20 13v14M23.5 16.3c0-1.8-1.6-2.8-3.5-2.8-2 0-3.5 1-3.5 2.6 0 3.6 7 1.8 7 5.4 0 1.7-1.6 2.7-3.5 2.7-2 0-3.6-1-3.6-2.8"/></svg>',
+    hrtech: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="15" cy="15" r="4.5"/><circle cx="26" cy="17" r="3.5"/><path d="M7 31c0-4.4 3.6-8 8-8s8 3.6 8 8M23 31c0-3.4 2-6.2 5-7.4"/></svg>',
+    igaming: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="14" width="24" height="14" rx="4"/><path d="M15 21h-4M13 19v4"/><circle cx="24" cy="19" r="1.2" fill="currentColor" stroke="none"/><circle cx="27" cy="22" r="1.2" fill="currentColor" stroke="none"/></svg>',
+    b2b: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="10" r="3.2"/><circle cx="9" cy="29" r="3.2"/><circle cx="31" cy="29" r="3.2"/><path d="M20 13.2v4.6M17.6 21.4L11.4 26M22.4 21.4l6.2 4.6"/></svg>'
+  };
+
+  function renderIndustries(items) {
+    var wrap = document.getElementById("industries-grid");
+    if (!wrap || !Array.isArray(items)) return;
+    wrap.innerHTML = "";
+    items.forEach(function (item) {
+      var cell = el("div", "industry-item");
+      cell.innerHTML =
+        (INDUSTRY_ICONS[item.icon] || "") +
+        "<span>" + item.label + "</span>" +
+        '<div class="rule"></div>';
+      wrap.appendChild(cell);
     });
   }
 

@@ -98,6 +98,21 @@ collections:
                       - {label: "Title", name: "title", widget: "string"}
                       - {label: "Description", name: "desc", widget: "text"}
 
+              - label: "Industries Section"
+                name: "industries"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - label: "Industries"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.label}}"
+                    fields:
+                      - {label: "Icon", name: "icon", widget: "select", options: ["saas", "ai", "cyber", "fintech", "hrtech", "igaming", "b2b"]}
+                      - {label: "Label", name: "label", widget: "string"}
+
               - label: "Israel/Romania Bridge Section"
                 name: "bridge"
                 widget: "object"
