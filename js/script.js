@@ -1,6 +1,10 @@
 (function () {
   "use strict";
 
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+
   function get(obj, path) {
     return path.split(".").reduce(function (acc, key) {
       return acc && acc[key] !== undefined ? acc[key] : null;
