@@ -36,6 +36,7 @@
     renderTextList("trade-list", get(dict, "trade.items"));
     renderHowSteps(get(dict, "how.steps"));
     renderTrackGrid(get(dict, "track.stats"));
+    renderHeroStats(get(dict, "track.stats"));
     renderWhyStrip(get(dict, "why.items"));
     renderIndustries(get(dict, "industries.items"));
     renderCredentials(get(dict, "about.credentials"));
@@ -90,6 +91,17 @@
     });
   }
 
+  function renderHeroStats(stats) {
+    var wrap = document.getElementById("hero-stats");
+    if (!wrap || !Array.isArray(stats)) return;
+    wrap.innerHTML = "";
+    stats.slice(0, 3).forEach(function (stat) {
+      var card = el("div", "hero-stat");
+      card.innerHTML = '<p class="n">' + stat.number + '</p><p class="l">' + stat.label + '</p>';
+      wrap.appendChild(card);
+    });
+  }
+
   function renderTrackGrid(stats) {
     var wrap = document.getElementById("track-grid");
     if (!wrap || !Array.isArray(stats)) return;
@@ -134,7 +146,7 @@
     items.forEach(function (item) {
       var cell = el("div", "industry-item");
       cell.innerHTML =
-        (INDUSTRY_ICONS[item.icon] || "") +
+        '<div class="icon-chip">' + (INDUSTRY_ICONS[item.icon] || "") + '</div>' +
         "<span>" + item.label + "</span>" +
         '<div class="rule"></div>';
       wrap.appendChild(cell);
