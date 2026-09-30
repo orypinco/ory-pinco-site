@@ -204,7 +204,7 @@
       var msgSending = form.getAttribute("data-msg-sending") || "Sending...";
       var msgSuccess = form.getAttribute("data-msg-success") || "Thank you.";
       var msgError = form.getAttribute("data-msg-error") || "Something went wrong.";
-      if (!action || action.indexOf("YOUR_FORM_ID") !== -1) {
+      if (!action) {
         e.preventDefault();
         status.textContent = msgError;
         status.className = "form-status error";

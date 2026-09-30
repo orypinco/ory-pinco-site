@@ -198,8 +198,11 @@
         </div>
       </div>
 
-      <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST"
+      <form class="contact-form" id="contact-form" action="https://formsubmit.co/ajax/Office@rainbow-xpress.com" method="POST"
             data-msg-sending="שולח..." data-msg-success="תודה — ההודעה שלך נשלחה. נחזור אליך בקרוב." data-msg-error="משהו השתבש. אנא שלח לנו אימייל ישירות.">
+        <input type="hidden" name="_subject" value="פנייה חדשה מהאתר">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
         <div class="form-row">
           <label for="f-name" data-i18n="contact.form.name">שם מלא</label>
           <input type="text" id="f-name" name="name" required>
@@ -224,7 +227,7 @@
           <label for="f-message" data-i18n="contact.form.message">הודעה</label>
           <textarea id="f-message" name="message" rows="5" required></textarea>
         </div>
-        <input type="text" name="_gotcha" style="display:none">
+        <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_language" value="he">
         <button type="submit" class="btn btn-solid btn-full" data-i18n="contact.form.submit">שליחה</button>
         <p class="form-status" id="form-status" role="status"></p>
