@@ -114,9 +114,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 0.76rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 700;
   color: var(--accent-deep); margin: 0 0 20px;
 }
-.eyebrow::before { content: ""; width: 22px; height: 1.5px; background: var(--accent); display: inline-block; }
 .eyebrow-light { color: var(--paper-deep); }
-.eyebrow-light::before { background: var(--paper-deep); }
 
 .section-title {
   font-family: var(--font-serif); font-weight: 500;
@@ -227,7 +225,6 @@ a { color: inherit; text-decoration: none; }
 /* ---------- Track Record (dark) ---------- */
 .track { padding: 110px 0; background: var(--ink); }
 .track .eyebrow { color: var(--accent); }
-.track .eyebrow::before { background: var(--accent); }
 .track-intro { max-width: 700px; margin: 0 0 56px; }
 .track-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
 .stat-number { font-family: var(--font-serif); font-size: 2.6rem; color: var(--paper); font-weight: 500; margin: 0 0 10px; line-height: 1; }
@@ -257,7 +254,6 @@ a { color: inherit; text-decoration: none; }
 /* ---------- Contact ---------- */
 .contact { padding: 120px 0; background: var(--ink); }
 .contact .eyebrow { color: var(--accent); }
-.contact .eyebrow::before { background: var(--accent); }
 .contact .section-title { color: var(--paper); }
 .contact-inner { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 70px; }
 @media (max-width: 860px) { .contact-inner { grid-template-columns: 1fr; gap: 50px; } }
