@@ -138,9 +138,16 @@
         if (data && data[lang]) {
           applyContent(data[lang]);
           initReveals();
+          scrollToHash();
         }
       })
       .catch(function () { /* keep baked-in fallback content */ });
+  }
+
+  function scrollToHash() {
+    if (!location.hash) return;
+    var target = document.querySelector(location.hash);
+    if (target) target.scrollIntoView({ behavior: "instant", block: "start" });
   }
 
   function initHeaderScroll() {
