@@ -161,10 +161,10 @@ a { color: inherit; text-decoration: none; }
 /* ---------- Industries (icon grid) ---------- */
 .industries { background: var(--white); padding: 100px 0; }
 .industries-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 36px 24px; }
-.industry-item { text-align: center; }
-.industry-item svg { width: 34px; height: 34px; margin: 0 auto 14px; display: block; color: var(--navy); }
+.industry-item { text-align: left; direction: ltr; }
+.industry-item svg { width: 34px; height: 34px; margin: 0 0 14px; display: block; color: var(--navy); }
 .industry-item span { font-family: var(--font-head); font-weight: 600; font-size: 0.86rem; color: var(--ink); }
-.industry-item .rule { width: 16px; height: 2px; background: var(--amber); margin: 8px auto 0; }
+.industry-item .rule { width: 16px; height: 2px; background: var(--amber); margin: 8px 0 0; }
 @media (max-width: 700px) { .industries-grid { grid-template-columns: repeat(2, 1fr); } }
 
 /* ---------- Value Proposition ---------- */
