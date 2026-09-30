@@ -202,11 +202,9 @@
         </div>
       </div>
 
-      <form class="contact-form" id="contact-form" action="https://formsubmit.co/ajax/Office@rainbow-xpress.com" method="POST"
+      <form class="contact-form" id="contact-form" action="https://formspree.io/f/xbglbane" method="POST"
             data-msg-sending="Sending..." data-msg-success="Thank you — your message has been sent. We&rsquo;ll be in touch shortly." data-msg-error="Something went wrong. Please email us directly instead.">
         <input type="hidden" name="_subject" value="New website inquiry">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
         <div class="form-row">
           <label for="f-name" data-i18n="contact.form.name">Name</label>
           <input type="text" id="f-name" name="name" required>
@@ -231,7 +229,7 @@
           <label for="f-message" data-i18n="contact.form.message">Message</label>
           <textarea id="f-message" name="message" rows="5" required></textarea>
         </div>
-        <input type="text" name="_honey" style="display:none">
+        <input type="text" name="_gotcha" style="display:none">
         <input type="hidden" name="_language" value="en">
         <button type="submit" class="btn btn-solid btn-full" data-i18n="contact.form.submit">SEND MESSAGE</button>
         <p class="form-status" id="form-status" role="status"></p>
