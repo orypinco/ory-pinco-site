@@ -47,7 +47,7 @@
     <a href="/he/" class="logo-word">אורי פינקו</a>
 
     <nav class="main-nav" id="main-nav">
-      <a href="/he/services/" data-i18n="nav.services">שירותים</a>
+      <a href="/he/services/" data-i18n="nav.services">מה אנחנו עושים</a>
       <a href="/he/why-romania/" data-i18n="nav.why">למה רומניה</a>
       <a href="/he/romania-israel/" data-i18n="nav.bridge">רומניה &harr; ישראל</a>
       <a href="/he/about/" data-i18n="nav.about">אודות</a>
@@ -203,7 +203,7 @@
       <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST"
             data-msg-sending="שולח..." data-msg-success="תודה — ההודעה שלך נשלחה. נחזור אליך בקרוב." data-msg-error="משהו השתבש. אנא שלח לנו אימייל ישירות.">
         <div class="form-row">
-          <label for="f-name" data-i18n="contact.form.name">שם</label>
+          <label for="f-name" data-i18n="contact.form.name">שם מלא</label>
           <input type="text" id="f-name" name="name" required>
         </div>
         <div class="form-row">
@@ -211,7 +211,7 @@
           <input type="text" id="f-company" name="company">
         </div>
         <div class="form-row">
-          <label for="f-email" data-i18n="contact.form.email">אימייל עסקי</label>
+          <label for="f-email" data-i18n="contact.form.email">אימייל</label>
           <input type="email" id="f-email" name="email" required>
         </div>
         <div class="form-row">
@@ -228,7 +228,7 @@
         </div>
         <input type="text" name="_gotcha" style="display:none">
         <input type="hidden" name="_language" value="he">
-        <button type="submit" class="btn btn-solid btn-full" data-i18n="contact.form.submit">שליחת הודעה</button>
+        <button type="submit" class="btn btn-solid btn-full" data-i18n="contact.form.submit">שליחה</button>
         <p class="form-status" id="form-status" role="status"></p>
       </form>
     </div>
@@ -238,12 +238,18 @@
 
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p class="footer-tagline" data-i18n="footer.tagline">השותף שלכם לצמיחה ברומניה</p>
+    <nav class="footer-nav">
+      <a href="/he/services/">מה אנחנו עושים</a>
+      <a href="/he/why-romania/">למה רומניה</a>
+      <a href="/he/romania-israel/">רומניה &harr; ישראל</a>
+      <a href="/he/about/">אודות</a>
+      <a href="/he/#contact">יצירת קשר</a>
+    </nav>
     <div class="footer-langs">
-      <a href="/en/">English</a>
       <a href="/he/" class="active">עברית</a>
+      <a href="/en/">English</a>
     </div>
-    <p class="footer-copy">&copy; <span id="footer-year"></span> אורי פינקו. <span data-i18n="footer.rights">כל הזכויות שמורות.</span></p>
+    <p class="footer-copy">&copy; <span id="footer-year"></span> <span data-i18n="footer.rights">כל הזכויות שמורות.</span></p>
   </div>
 </footer>
 

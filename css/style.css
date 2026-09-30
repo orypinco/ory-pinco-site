@@ -299,6 +299,9 @@ html[dir="rtl"] .process-flow li::after { content: "\2190"; }
 /* ---------- Footer ---------- */
 .site-footer { background: var(--navy-deep); padding: 40px 0; text-align: center; }
 .footer-tagline { color: rgba(255,255,255,0.5); font-size: 0.84rem; margin: 8px 0 16px; }
+.footer-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 4px 0 20px; }
+.footer-nav a { color: rgba(255,255,255,0.7); font-size: 0.84rem; font-weight: 600; }
+.footer-nav a:hover { color: var(--white); }
 .footer-langs { display: flex; justify-content: center; gap: 14px; margin: 0 0 16px; }
 .footer-langs a { color: rgba(255,255,255,0.5); font-size: 0.8rem; font-weight: 600; }
 .footer-langs a:hover, .footer-langs a.active { color: var(--white); }
