@@ -1,738 +1,488 @@
 {
   "en": {
+    "meta": { "email": "Office@rainbow-xpress.com", "phone": "+40 775 467 883", "telLink": "0040775467883" },
+    "nav": { "services": "Services", "why": "Why Romania", "bridge": "Romania ↔ Israel", "about": "About", "cta": "LET’S TALK" },
+    "home": {
+      "hero": {
+        "eyebrow": "YOUR PARTNER FOR GROWTH IN ROMANIA",
+        "title": "Turn your vision into reality in Romania.",
+        "lead": "We help international companies enter, build and grow in Romania, combining senior business experience, local market knowledge and hands-on execution.",
+        "lead2": "From market entry and setup to recruitment, operations and business development, we bring together what you need to build a successful operation on the ground.",
+        "ctaPrimary": "LET’S TALK",
+        "ctaSecondary": "EXPLORE OUR SERVICES"
+      },
+      "why": {
+        "eyebrow": "THE OPPORTUNITY",
+        "title": "Why Romania. Why now.",
+        "subtitle": "A strategic EU market with skilled talent, internationally experienced professionals, competitive operating costs and a strong location for companies looking to grow in Europe.",
+        "items": [
+          { "title": "EU Market Access", "desc": "Operate from within the European Union with direct access to the wider European market." },
+          { "title": "Skilled Talent", "desc": "A strong pool of technology, engineering, finance, business services and management professionals." },
+          { "title": "International Experience", "desc": "Professionals with experience in multinational companies, international teams and global business environments." },
+          { "title": "Competitive Operating Costs", "desc": "Cost-efficient access to professional talent, office space and business services compared with many Western European markets." },
+          { "title": "Strategic European Location", "desc": "Well positioned for companies operating across Europe and the wider region." }
+        ],
+        "cta": "WHY ROMANIA? DISCOVER MORE →"
+      },
+      "services": {
+        "eyebrow": "WHAT WE DO",
+        "title": "FROM OPPORTUNITY TO OPERATION",
+        "subtitle": "Everything you need to build and grow in Romania.",
+        "items": [
+          { "title": "Market Entry & Strategy", "desc": "Understand the market, validate the opportunity and build a practical roadmap for Romania." },
+          { "title": "Company Setup & Operations", "desc": "Put the structure, infrastructure and local support in place to get your operation running." },
+          { "title": "Recruitment & Team Building", "desc": "Find and hire the right people, from your first strategic hire to a complete local team." },
+          { "title": "Business Development", "desc": "Connect with customers, partners, suppliers and new commercial opportunities." },
+          { "title": "Local Management", "desc": "Senior local leadership and hands-on management tailored to the needs of your operation." }
+        ],
+        "cta": "EXPLORE ALL SERVICES →"
+      },
+      "how": {
+        "eyebrow": "HOW WE WORK",
+        "title": "FROM PLAN TO EXECUTION",
+        "subtitle": "From opportunity to a growing operation.",
+        "steps": ["EXPLORE", "VALIDATE", "ENTER", "BUILD", "OPERATE", "GROW"],
+        "note": "Work with us at one stage or throughout the entire journey."
+      },
+      "track": {
+        "eyebrow": "TRACK RECORD",
+        "title": "PROVEN ON THE GROUND",
+        "tagline": "Nearly two decades of hands-on experience.",
+        "intro": "Practical experience building, managing and growing businesses, teams and operations in Romania and international environments.",
+        "stats": [
+          { "number": "18+ YEARS", "label": "Business & Management Experience", "sub": "" },
+          { "number": "500+", "label": "Professionals Recruited", "sub": "" },
+          { "number": "360°", "label": "End-to-End Business Support in Romania", "sub": "" },
+          { "number": "100%", "label": "Hands-On Client Support", "sub": "" }
+        ]
+      },
+      "who": {
+        "eyebrow": "WHO WE WORK WITH",
+        "title": "Wherever you are in your Romania journey, we can help you move forward.",
+        "items": [
+          { "title": "Exploring Romania", "desc": "Understand the market and opportunity before you commit." },
+          { "title": "Entering the Market", "desc": "Build the right structure and launch your operation with confidence." },
+          { "title": "Building a Romanian Team", "desc": "Find the people you need to build and grow." },
+          { "title": "Already Operating in Romania", "desc": "Strengthen, improve or expand your existing operation." },
+          { "title": "Going Through a Management Transition", "desc": "Maintain experienced local leadership and business continuity while building the permanent solution." }
+        ]
+      },
+      "bridge": {
+        "sub": "ROMANIA ↔ ISRAEL",
+        "eyebrow": "CROSS-BORDER BUSINESS",
+        "title": "Two markets. One business bridge.",
+        "subtitle": "Our knowledge of both markets allows us to connect companies with customers, partners, suppliers, distributors and commercial opportunities across Romania and Israel.",
+        "cta": "ROMANIA ↔ ISRAEL: DISCOVER MORE →"
+      },
+      "about": {
+        "sub": "ABOUT",
+        "eyebrow": "WHO WE ARE",
+        "title": "International experience. Local expertise. Hands-on execution.",
+        "p1": "Founded by Ory Pinco, we combine nearly two decades of business and management experience in Romania and international environments with a multidisciplinary network of experienced local professionals.",
+        "p2": "This combination of senior management experience, local market knowledge and specialist expertise gives international companies one trusted local partner for building, managing and growing their Romanian operations.",
+        "cta": "MORE ABOUT US →"
+      },
+      "finalCta": {
+        "title": "Your next step in Romania starts here.",
+        "body": "Whether you are exploring the market, preparing to enter or looking to expand an existing operation, tell us what you want to achieve and let’s explore how we can make it happen.",
+        "cta": "LET’S TALK →"
+      }
+    },
+    "servicesPage": {
+      "eyebrow": "WHAT WE DO",
+      "title": "From market entry to a fully functioning operation in Romania.",
+      "subtitle": "Engage us for one specific need or for broader support across the setup, management and growth of your Romanian operation.",
+      "items": [
+        { "title": "Market Entry & Strategy", "desc": "Market research, opportunity validation, competitive analysis, positioning and a practical roadmap for entering Romania. The goal is simple: understand the market, make informed decisions and turn the opportunity into a clear plan of action." },
+        { "title": "Business Development & Local Partnerships", "desc": "Customer, partner and distributor identification, commercial introductions, local relationship building and development of new business opportunities." },
+        { "title": "Company Setup & Local Operations", "desc": "Coordination of company formation and the local business infrastructure, including banking, accounting, legal services, suppliers, office infrastructure and the professionals required to get the operation running." },
+        { "title": "Recruitment & Team Building", "desc": "Talent mapping, sourcing, interviewing, hiring and onboarding, from the first strategic hire to building a complete Romanian team." },
+        { "title": "Senior Local Management", "desc": "Hands-on local management according to your needs, including teams, suppliers, budgets, operations, local decision-making and coordination with international headquarters." },
+        { "title": "Interim Management", "desc": "Experienced local leadership during market entry, growth, organizational change or management transitions, including continuity while recruiting a permanent local manager." },
+        { "title": "Trade & Market Access", "desc": "Identification of suppliers, manufacturers, distributors, buyers and business partners, with support in developing cross-border commercial opportunities." }
+      ],
+      "process": {
+        "eyebrow": "FROM OPPORTUNITY TO OPERATION",
+        "steps": ["EXPLORE", "VALIDATE", "ENTER", "BUILD", "OPERATE", "GROW"],
+        "note": "Work with us at one stage or throughout the entire journey."
+      },
+      "ctaBlock": {
+        "title": "Planning an operation in Romania?",
+        "body": "Tell us what you want to achieve and let’s look at the best way to get there.",
+        "cta": "LET’S TALK →"
+      }
+    },
+    "whyPage": {
+      "eyebrow": "THE OPPORTUNITY",
+      "title": "Why Romania. Why now.",
+      "intro1": "Romania combines access to the European market, skilled talent, internationally experienced professionals, competitive operating costs and a strategic location.",
+      "intro2": "For international companies looking to establish, expand or grow in Europe, it is a market worth exploring.",
+      "items": [
+        { "title": "EU Market Access", "desc": "As a full member of the European Union, Romania provides companies with direct access to the wider European market within an EU business and regulatory environment." },
+        { "title": "Skilled Talent", "desc": "A strong pool of professionals across technology, engineering, finance, business services and management, with established business and technology hubs in Bucharest, Cluj-Napoca, Iași and Timișoara." },
+        { "title": "International Experience", "desc": "Many Romanian professionals bring experience from multinational companies, international teams and global headquarters environments." },
+        { "title": "Competitive Operating Costs", "desc": "Professional talent, office space and business services remain cost competitive compared with many Western European markets." },
+        { "title": "Strategic European Location", "desc": "Well positioned for operations across Central and Eastern Europe, with strong connectivity to other major European markets." },
+        { "title": "Business & Technology Ecosystem", "desc": "Romania combines a significant international corporate presence with established technology, business services and digital sectors." }
+      ],
+      "ctaBlock": {
+        "title": "Could Romania be your next market?",
+        "body": "Let’s explore the opportunity and see how Romania could fit into your growth plans.",
+        "cta": "LET’S TALK →"
+      }
+    },
+    "bridgePage": {
+      "eyebrow": "CROSS-BORDER BUSINESS",
+      "title": "Two markets. One business bridge.",
+      "subtitle": "We connect companies, products and commercial opportunities across Romania and Israel, supporting the journey from market exploration to real business activity.",
+      "israelToRomania": {
+        "title": "ISRAEL → ROMANIA",
+        "heading": "Enter Romania. Build it right from the start.",
+        "intro": "For Israeli companies looking to enter the Romanian market, establish local operations or use Romania as a platform for European growth.",
+        "items": ["Market Entry", "Business Development", "Company Setup", "Recruitment & Team Building", "Customer & Partner Search", "Supplier & Distributor Search", "Local Operations", "Senior Local Management", "Import & Export Coordination"]
+      },
+      "romaniaToIsrael": {
+        "title": "ROMANIA → ISRAEL",
+        "heading": "Open the door to the Israeli market.",
+        "intro": "For Romanian companies, manufacturers and technology businesses looking to explore and develop commercial opportunities in Israel.",
+        "items": ["Market Validation", "Buyer Identification", "Distributor Search", "Commercial Introductions", "Partner Development", "Supplier Relationships", "Commercial Representation", "Import & Export Coordination"]
+      },
+      "trade": {
+        "eyebrow": "CROSS-BORDER TRADE",
+        "title": "From the first introduction to a real business opportunity.",
+        "items": [
+          { "title": "Market & Product Validation", "desc": "Assess demand, positioning, pricing and potential routes to market." },
+          { "title": "Distributor & Buyer Search", "desc": "Identify relevant distributors, importers, retailers, enterprise buyers and commercial partners." },
+          { "title": "Supplier & Manufacturer Sourcing", "desc": "Identify and evaluate suppliers, manufacturers and production partners." },
+          { "title": "Commercial Introductions", "desc": "Connect with relevant decision-makers and build local business relationships." },
+          { "title": "Negotiation & Deal Support", "desc": "Support negotiations, partner evaluation and commercial development." },
+          { "title": "Import & Export Coordination", "desc": "Coordinate with specialized logistics, customs, legal and regulatory professionals where required." }
+        ]
+      },
+      "ctaBlock": {
+        "title": "See an opportunity between Romania and Israel?",
+        "body": "",
+        "cta": "LET’S TALK →"
+      }
+    },
+    "aboutPage": {
+      "eyebrow": "WHO WE ARE",
+      "title": "International experience. Local expertise. Hands-on execution.",
+      "p1": "We work with international companies looking to enter Romania, establish operations, build local teams or take an existing operation to the next stage.",
+      "p2": "We combine senior business experience with deep local market knowledge and the ability to bring together the expertise required to turn a plan into a functioning business.",
+      "approach": {
+        "eyebrow": "OUR APPROACH",
+        "title": "One local partner. The complete picture.",
+        "p1": "Building a business in a new market involves much more than incorporating a company.",
+        "p2": "Recruitment, operations, finance, suppliers, infrastructure, legal services, local relationships and business development all need to work together.",
+        "p3": "We coordinate the process, connect the right professionals and keep the different parts of the operation moving in the same direction."
+      },
+      "founder": {
+        "eyebrow": "ORY PINCO",
+        "role": "FOUNDER",
+        "title": "Nearly two decades of business and management experience.",
+        "p1": "Ory Pinco is a senior business leader with nearly two decades of experience building, developing and managing businesses and operations in Romania and international environments.",
+        "p2": "Over the years, she has built operations and teams from the ground up and led responsibilities across management, operations, recruitment and HR, finance, suppliers, infrastructure and coordination with international headquarters.",
+        "p3": "Her experience spans technology, digital businesses, telecommunications, logistics and international operations, providing a practical understanding of what companies need to enter a new market, build a local operation and grow successfully."
+      },
+      "track": {
+        "eyebrow": "TRACK RECORD",
+        "stats": [
+          { "number": "18+ YEARS", "label": "Business & Management Experience", "sub": "" },
+          { "number": "500+", "label": "Professionals Recruited", "sub": "" },
+          { "number": "360°", "label": "End-to-End Business Support in Romania", "sub": "" },
+          { "number": "100%", "label": "Hands-On Client Support", "sub": "" }
+        ]
+      },
+      "team": {
+        "eyebrow": "THE TEAM",
+        "title": "Broad expertise. One team.",
+        "p1": "Alongside Ory is a multidisciplinary network of experienced professionals across business operations, recruitment and HR, accounting and finance, legal services, technology and infrastructure, administration, relocation and translation.",
+        "p2": "This gives clients one local point of contact that understands the complete picture, brings in the right expertise and keeps the operation moving forward.",
+        "statement": "Experienced team. Complete perspective. Solutions that work. Clients that grow."
+      },
+      "ctaBlock": {
+        "title": "Ready for your next step in Romania?",
+        "body": "Tell us what you want to build.",
+        "cta": "LET’S TALK →"
+      }
+    },
     "contact": {
-      "eyebrow": "Get in Touch",
-      "title": "Considering Romania? Start with a conversation.",
-      "body": "Whether you're evaluating the Romanian market, looking for your first local partner, building a team, exploring Romania–Israel trade opportunities or already operating here, let's establish what you actually need on the ground.",
-      "email": "hello@orypinco.com",
-      "location": "Based in Romania",
-      "ctaPrimary": "Let's Talk",
-      "ctaSecondary": "Book an Introductory Call",
+      "eyebrow": "GET IN TOUCH",
+      "title": "Considering Romania? Let’s talk.",
+      "body": "Whether you are evaluating the Romanian market, preparing to establish operations, building a team or looking for a trusted local partner, tell us what you are planning and let’s see how we can help.",
+      "email": "Office@rainbow-xpress.com",
+      "phone": "+40 775 467 883",
       "form": {
-        "success": "Thank you — your message has been sent. We'll be in touch shortly.",
-        "message": "Message",
-        "error": "Something went wrong. Please email us directly instead.",
-        "interest": "What are you looking to do?",
         "name": "Name",
-        "submit": "Send Message",
-        "sending": "Sending...",
-        "email": "Work Email",
         "company": "Company",
+        "email": "Work Email",
+        "phone": "Phone",
+        "interest": "How can we help?",
+        "message": "Message",
+        "submit": "SEND MESSAGE",
+        "sending": "Sending...",
+        "success": "Thank you — your message has been sent. We’ll be in touch shortly.",
+        "error": "Something went wrong. Please email us directly instead.",
         "options": [
-          "Enter Romania",
+          "Market Entry",
           "Business Development",
-          "Build a Team",
-          "Fractional Country Manager",
+          "Company Setup & Operations",
+          "Recruitment & Team Building",
+          "Local Management",
           "Interim Management",
-          "Romania–Israel Trade",
-          "Distributor / Buyer Search",
-          "Supplier Sourcing",
+          "Romania ↔ Israel",
+          "Trade / Supplier / Distributor Search",
           "Other"
         ]
       }
     },
-    "nav": {
-      "services": "Services",
-      "bridge": "Israel ↔ Romania",
-      "why": "Why Romania",
-      "about": "About",
-      "contact": "Contact",
-      "cta": "Let's Talk"
-    },
-    "trade": {
-      "eyebrow": "Cross Border Trade Services",
-      "title": "Supporting the deal, end to end",
-      "items": [
-        {
-          "title": "Market & Product Validation",
-          "desc": "Assess demand, competitive positioning, pricing and potential routes to market."
-        },
-        {
-          "title": "Distributor & Buyer Search",
-          "desc": "Identify and approach relevant distributors, importers, retailers, enterprise buyers and commercial partners."
-        },
-        {
-          "title": "Supplier & Manufacturer Sourcing",
-          "desc": "Identify and evaluate Romanian or Israeli suppliers, manufacturers and production partners."
-        },
-        {
-          "title": "Commercial Introductions",
-          "desc": "Open conversations with relevant decision makers and facilitate local business relationships."
-        },
-        {
-          "title": "Negotiation & Deal Support",
-          "desc": "Support commercial discussions, partner evaluation, terms and deal development."
-        },
-        {
-          "title": "Import / Export Coordination",
-          "desc": "Coordinate the commercial process with specialized customs, logistics, legal and regulatory providers where required."
-        }
-      ]
-    },
-    "why": {
-      "eyebrow": "The Opportunity",
-      "title": "Why Romania",
-      "subtitle": "An EU market with the talent, cost structure and location to support serious international operations.",
-      "items": [
-        {
-          "title": "EU Market Access",
-          "desc": "Romania is a full member of the European Union, providing companies with a compliant gateway into the wider European market."
-        },
-        {
-          "title": "Technology & Engineering Talent",
-          "desc": "A long standing base of technology and engineering education, with established hubs in Bucharest, Cluj Napoca, Iași and Timișoara."
-        },
-        {
-          "title": "Multilingual Workforce",
-          "desc": "A business environment where English is widely used in professional and technology roles, supporting international teams and HQ communication."
-        },
-        {
-          "title": "Competitive Operating Environment",
-          "desc": "Operating costs — talent, office space and services — remain competitive relative to Western Europe and Israel."
-        },
-        {
-          "title": "Strategic European Location",
-          "desc": "A central position in Europe with direct flight connectivity and a time zone that overlaps comfortably with both Israel and Western Europe."
-        },
-        {
-          "title": "Growing Digital Economy & CEE Hub Potential",
-          "desc": "An expanding technology and digital services sector, with Romania increasingly used as an operational base for Central and Eastern Europe."
-        }
-      ]
-    },
-    "bridge": {
-      "eyebrow": "Cross Border Business",
-      "sub": "Romania ↔ Israel",
-      "title": "Two markets. One business bridge.",
-      "subtitle": "From market entry to cross border trade, we connect companies, products, partners and opportunities between Romania and Israel.",
-      "colA": {
-        "title": "Romania → Israel",
-        "intro": "Helping Romanian companies, manufacturers and technology businesses access the Israeli market through:",
-        "items": [
-          "Market validation",
-          "Buyer identification",
-          "Distributor search",
-          "Commercial introductions",
-          "Partner development",
-          "Supplier relationships",
-          "Commercial representation",
-          "Import / export coordination"
-        ]
-      },
-      "colB": {
-        "title": "Israel → Romania",
-        "intro": "Helping Israeli companies enter Romania and access opportunities in the wider European market through:",
-        "items": [
-          "Romania market entry",
-          "Local business development",
-          "Distributor and buyer sourcing",
-          "Supplier sourcing",
-          "Commercial partnerships",
-          "Recruitment",
-          "Local operations",
-          "Fractional Country Management",
-          "Regulatory orientation",
-          "Import / export coordination"
-        ]
-      },
-      "tags": [
-        "Romania ↔ Israel",
-        "Market Entry",
-        "Trade",
-        "Import & Export",
-        "Sourcing",
-        "Distributors",
-        "Buyers",
-        "Business Development",
-        "Commercial Representation"
-      ]
-    },
-    "track": {
-      "eyebrow": "Track Record",
-      "title": "Built in the real world.",
-      "intro": "Nearly two decades of hands on senior management experience across technology, digital businesses, telecommunications, logistics and international operations.",
-      "stats": [
-        {
-          "number": "18+ Years",
-          "label": "Business Experience",
-          "sub": ""
-        },
-        {
-          "number": "500+",
-          "label": "Professionals Recruited",
-          "sub": ""
-        },
-        {
-          "number": "360°",
-          "label": "Business Support in Romania",
-          "sub": ""
-        },
-        {
-          "number": "100%",
-          "label": "Hands-On Client Support",
-          "sub": ""
-        }
-      ]
-    },
-    "about": {
-      "eyebrow": "About Ory Pinco",
-      "title": "Senior experience. Local execution.",
-      "p1": "The company was founded by Ory Pinco, an international business executive with extensive experience in building, launching, and managing operations in Romania. Having built companies and teams from the ground up, she combines business strategy, market entry expertise, and hands-on local execution to help international companies establish and grow successfully in Romania. Ory holds a Doctorate in Economics.",
-      "p2": "Our team brings together more than 18 years of hands-on experience supporting international companies, businesses, and entrepreneurs in Romania. We help companies turn plans into operations from their first steps in the Romanian market to building and managing fully functioning local teams and business infrastructure.",
-      "p3": "Over the years, we have supported clients with market entry, company setup, recruitment, HR, finance and accounting coordination, legal and compliance matters, IT infrastructure, local administration, relocation, translation, and ongoing operational support.",
-      "p4": "Behind every project is a multidisciplinary team of trusted professionals with expertise across business operations, recruitment and HR, accounting and finance, legal and compliance, IT and technical infrastructure, administration, translation, relocation, and local market support.\nThis allows our clients to avoid managing multiple disconnected providers. Instead, they have one trusted local partner who understands the complete picture, coordinates the right professionals, and keeps the project moving forward.",
-      "credentials": []
-    },
-    "how": {
-      "eyebrow": "How It Works",
-      "title": "Romania Market Entry: From Opportunity to Full Local Operations",
-      "steps": [
-        {
-          "title": "Explore",
-          "desc": "Understand the market, opportunity and constraints."
-        },
-        {
-          "title": "Validate",
-          "desc": "Test assumptions and map competitors, customers, partners, talent and regulatory requirements."
-        },
-        {
-          "title": "Enter",
-          "desc": "Build the commercial and operational foundation."
-        },
-        {
-          "title": "Build",
-          "desc": "Recruit people and establish suppliers, processes and local infrastructure."
-        },
-        {
-          "title": "Operate",
-          "desc": "Run the local business and connect Romanian operations with international headquarters."
-        },
-        {
-          "title": "Scale or Hand Over",
-          "desc": "Continue with fractional leadership or transition to a permanent Romanian management structure."
-        }
-      ]
-    },
-    "value": {
-      "title": "You don't need a Romanian organization before you have a Romanian business.",
-      "p1": "Entering a new country traditionally means hiring senior management, finding local advisors, building supplier relationships, recruiting a team and learning how the market works — often before knowing exactly what the local operation will become.",
-      "p2": "We provide the senior local layer first.",
-      "p3": "We validate the opportunity, open the right doors, build the infrastructure and team, and run the operation on the ground. As the business grows, we help turn that initial footprint into a permanent organization.",
-      "statement": "One market. One accountable team. Multiple functions.",
-      "tags": [
-        "Strategy",
-        "Commercial",
-        "People",
-        "Operations",
-        "Local Network"
-      ]
-    },
-    "strategy": {
-      "eyebrow": "How We Work",
-      "title": "International strategy. Romanian execution.",
-      "p1": "The challenge in international expansion is rarely strategy alone. It is translating headquarters' expectations into decisions that work locally.",
-      "p2": "We operate between both worlds, combining international management standards with deep knowledge of Romanian business culture, talent, partners, suppliers and institutions.",
-      "languages": [
-        "Romanian",
-        "English",
-        "Hebrew"
-      ],
-      "calloutLabel": "For Israeli Companies",
-      "calloutBody": "Direct communication in Hebrew combined with deep Romanian market knowledge and extensive experience working between Israeli headquarters and Romanian operations."
-    },
-    "hero": {
-      "eyebrow": "Not a Consultancy. Your Team on the Ground.",
-      "title": "Your operational backbone <em>in Romania</em>.",
-      "lead": "From market entry to a fully functioning local operation, we give international companies the senior leadership, local knowledge and execution capability they need to build and grow in Romania.",
-      "lead2": "One accountable team. From first market validation to people, partnerships, operations and day to day country management.",
-      "quote": "Think of us as your Fractional Country Manager in Romania.",
-      "ctaPrimary": "Let's Talk",
-      "ctaSecondary": "Explore Services",
-      "tags": [
-        "SaaS",
-        "AI",
-        "Cybersecurity",
-        "FinTech",
-        "HR Tech",
-        "iGaming",
-        "B2B Technology"
-      ]
-    },
     "footer": {
-      "tagline": "Romania Market Entry & Fractional Country Management",
+      "tagline": "YOUR PARTNER FOR GROWTH IN ROMANIA",
       "rights": "All rights reserved."
-    },
-    "industries": {
-      "eyebrow": "Industries We Work With",
-      "title": "Sectors, not limits",
-      "items": [
-        {
-          "icon": "saas",
-          "label": "SaaS"
-        },
-        {
-          "icon": "ai",
-          "label": "AI"
-        },
-        {
-          "icon": "cyber",
-          "label": "Cybersecurity"
-        },
-        {
-          "icon": "fintech",
-          "label": "FinTech"
-        },
-        {
-          "icon": "hrtech",
-          "label": "HR Tech"
-        },
-        {
-          "icon": "igaming",
-          "label": "iGaming"
-        },
-        {
-          "icon": "b2b",
-          "label": "B2B Technology"
-        },
-        {
-          "icon": "logistics",
-          "label": "Logistics"
-        }
-      ]
-    },
-    "services": {
-      "eyebrow": "What We Do",
-      "title": "End to end, from first meeting to full operations",
-      "subtitle": "Engage us for a single step, or for the entire Romanian market entry journey.",
-      "items": [
-        {
-          "title": "Romania Market Entry & Go to Market Strategy",
-          "desc": "Market intelligence, competitive analysis, market positioning, regulatory orientation and a practical go to market roadmap designed specifically for Romania."
-        },
-        {
-          "title": "Business Development & Local Partnerships",
-          "desc": "Partner and distributor sourcing, enterprise introductions, commercial representation, local relationship building and deal development from first conversation to signed agreement."
-        },
-        {
-          "title": "Company Setup & Local Operations",
-          "desc": "Coordination of entity formation, banking, accounting, legal support, suppliers, office infrastructure and ongoing relationships with the local business ecosystem."
-        },
-        {
-          "title": "Recruitment & Team Building in Romania",
-          "desc": "Talent mapping, sourcing, interviewing, hiring and onboarding, from the first strategic hire to building a complete Romanian team."
-        },
-        {
-          "title": "Fractional Country Manager Romania",
-          "desc": "Senior local leadership without requiring you to immediately build a complete management structure — operational leadership, budget oversight, stakeholder reporting, team leadership, local decision making, HQ coordination, supplier management and operational execution."
-        },
-        {
-          "title": "Interim Country Management",
-          "desc": "Experienced Romanian leadership during market entry, rapid growth, restructuring, transition, or while you recruit a permanent Country Manager."
-        },
-        {
-          "title": "Romania–Israel Trade & Market Access",
-          "desc": "Support for companies looking to sell, source, import or export products between Romania and Israel — identifying opportunities, connecting manufacturers, suppliers, distributors and buyers, evaluating partners, and coordinating the commercial relationships required to bring products successfully to market."
-        }
-      ]
-    },
-    "who": {
-      "eyebrow": "Who We Work With",
-      "title": "Romania market entry & business expansion for international companies",
-      "subtitle": "Different starting points. One destination: a successful operation on the ground.",
-      "items": [
-        {
-          "title": "Exploring Romania",
-          "desc": "For companies evaluating whether Romania represents the right commercial, talent or operational opportunity."
-        },
-        {
-          "title": "Entering the Market",
-          "desc": "For companies that have decided to enter Romania and need a trusted senior operator to turn strategy into execution."
-        },
-        {
-          "title": "Building a Romanian Team",
-          "desc": "For organizations requiring talent mapping, recruitment, leadership and local organizational development."
-        },
-        {
-          "title": "Already Operating in Romania",
-          "desc": "For international businesses with customers, employees or partners in Romania that need stronger local leadership, structure or commercial execution."
-        },
-        {
-          "title": "Between Country Managers",
-          "desc": "For businesses requiring experienced interim leadership while recruiting a permanent local Country Manager."
-        },
-        {
-          "title": "Israel ↔ Romania Trade",
-          "desc": "For Romanian and Israeli businesses looking for buyers, distributors, suppliers, manufacturers, partners or commercial opportunities in the other market."
-        }
-      ]
     }
   },
   "he": {
+    "meta": { "email": "Office@rainbow-xpress.com", "phone": "+40 775 467 883", "telLink": "0040775467883" },
+    "nav": { "services": "שירותים", "why": "למה רומניה", "bridge": "רומניה ↔ ישראל", "about": "אודות", "cta": "בואו נדבר" },
+    "home": {
+      "hero": {
+        "eyebrow": "השותף שלכם לצמיחה ברומניה",
+        "title": "הופכים את החזון שלכם למציאות ברומניה.",
+        "lead": "אנחנו מלווים חברות בינלאומיות בכניסה לשוק הרומני, בהקמת פעילות ובצמיחה, עם ניסיון עסקי בכיר, היכרות עמוקה עם השוק ויכולת ביצוע בשטח.",
+        "lead2": "מהכניסה לשוק והקמת הפעילות ועד גיוס, תפעול ופיתוח עסקי, אנחנו מחברים את כל מה שנדרש כדי לבנות פעילות מצליחה ברומניה.",
+        "ctaPrimary": "בואו נדבר",
+        "ctaSecondary": "השירותים שלנו"
+      },
+      "why": {
+        "eyebrow": "ההזדמנות",
+        "title": "למה רומניה. ולמה עכשיו.",
+        "subtitle": "שוק מרכזי באיחוד האירופי, עם כוח אדם איכותי, ניסיון בינלאומי, עלויות תפעול תחרותיות ומיקום אסטרטגי לחברות שרוצות לצמוח באירופה.",
+        "items": [
+          { "title": "גישה לשוק האירופי", "desc": "פעילות מתוך מדינה חברה באיחוד האירופי וגישה ישירה לשוק האירופי הרחב." },
+          { "title": "כוח אדם איכותי", "desc": "מאגר רחב של אנשי מקצוע בתחומי הטכנולוגיה, ההנדסה, הפיננסים, השירותים והניהול." },
+          { "title": "ניסיון בינלאומי", "desc": "אנשי מקצוע בעלי ניסיון בחברות בינלאומיות, בצוותים רב תרבותיים ובעבודה בסביבה גלובלית." },
+          { "title": "עלויות תפעול תחרותיות", "desc": "כוח אדם מקצועי, משרדים ושירותים עסקיים בעלויות תחרותיות ביחס לשווקים רבים במערב אירופה." },
+          { "title": "מיקום אסטרטגי", "desc": "מיקום נוח לפעילות באירופה, עם קישוריות טובה לשווקים מרכזיים באזור." }
+        ],
+        "cta": "למה רומניה? גלו עוד ←"
+      },
+      "services": {
+        "eyebrow": "מה אנחנו עושים",
+        "title": "מהזדמנות לפעילות",
+        "subtitle": "כל מה שצריך כדי להקים ולפתח פעילות ברומניה.",
+        "items": [
+          { "title": "כניסה לשוק ואסטרטגיה", "desc": "בוחנים את השוק, מזהים את ההזדמנות ובונים תוכנית מעשית לכניסה לרומניה." },
+          { "title": "הקמת חברה ותפעול", "desc": "מרכזים את התהליכים, אנשי המקצוע והתשתיות הנדרשים כדי להקים פעילות ולהתחיל לעבוד." },
+          { "title": "גיוס ובניית צוותים", "desc": "מאתרים ומגייסים את האנשים הנכונים, מהגיוס הראשון ועד לבניית צוות מקומי מלא." },
+          { "title": "פיתוח עסקי", "desc": "מחברים אתכם ללקוחות, שותפים, ספקים והזדמנויות עסקיות חדשות." },
+          { "title": "ניהול מקומי", "desc": "ניהול בכיר וליווי הפעילות בשטח, בהתאם לצרכים ולשלב שבו העסק נמצא." }
+        ],
+        "cta": "לכל השירותים ←"
+      },
+      "how": {
+        "eyebrow": "איך אנחנו עובדים",
+        "title": "מהתכנון לביצוע",
+        "subtitle": "מהזדמנות לפעילות צומחת.",
+        "steps": ["בוחנים", "מאמתים", "נכנסים", "בונים", "מפעילים", "צומחים"],
+        "note": "אפשר להיעזר בנו בשלב מסוים או לעבוד איתנו לאורך התהליך כולו."
+      },
+      "track": {
+        "eyebrow": "ניסיון מוכח בשטח",
+        "title": "",
+        "tagline": "כמעט שני עשורים של עשייה.",
+        "intro": "ניסיון מעשי בהקמה, ניהול ופיתוח של פעילויות עסקיות, בניית צוותים ועבודה עם חברות בינלאומיות ברומניה.",
+        "stats": [
+          { "number": "18+ שנים", "label": "ניסיון עסקי וניהולי", "sub": "" },
+          { "number": "500+", "label": "אנשי מקצוע שגויסו", "sub": "" },
+          { "number": "360°", "label": "מעטפת עסקית מקצה לקצה ברומניה", "sub": "" },
+          { "number": "100%", "label": "ליווי מעשי וביצוע בשטח", "sub": "" }
+        ]
+      },
+      "who": {
+        "eyebrow": "למי אנחנו מתאימים",
+        "title": "בכל שלב של הדרך ברומניה.",
+        "items": [
+          { "title": "בוחנים את השוק", "desc": "רוצים להבין את הפוטנציאל לפני שמקבלים החלטה." },
+          { "title": "מתכננים להיכנס לרומניה", "desc": "צריכים לבנות תוכנית ולהקים את הפעילות נכון מההתחלה." },
+          { "title": "בונים צוות מקומי", "desc": "מחפשים את האנשים הנכונים להקמה ולצמיחה." },
+          { "title": "כבר פועלים ברומניה", "desc": "רוצים לחזק, לייעל או להרחיב פעילות קיימת." },
+          { "title": "בתקופת מעבר", "desc": "צריכים ניהול מקומי מנוסה ורציפות עסקית עד לבניית פתרון קבוע." }
+        ]
+      },
+      "bridge": {
+        "sub": "רומניה ↔ ישראל",
+        "eyebrow": "פעילות עסקית חוצת גבולות",
+        "title": "שני שווקים. גשר עסקי אחד.",
+        "subtitle": "ההיכרות שלנו עם שני השווקים מאפשרת לחבר בין חברות, לקוחות, ספקים, מפיצים ושותפים ולפתח הזדמנויות עסקיות בין רומניה לישראל.",
+        "cta": "רומניה ↔ ישראל: לכל הפרטים ←"
+      },
+      "about": {
+        "sub": "אודות",
+        "eyebrow": "מי אנחנו",
+        "title": "ניסיון בינלאומי. מומחיות מקומית. ביצוע בשטח.",
+        "p1": "הפעילות נוסדה על ידי אורי פינקו ומבוססת על קרוב לשני עשורים של ניסיון עסקי וניהולי ברומניה ובסביבה בינלאומית, לצד צוות רב תחומי של אנשי מקצוע מנוסים.",
+        "p2": "השילוב בין ניסיון ניהולי, היכרות עם השוק ומומחיות בתחומים משלימים מאפשר לנו לתת לחברות כתובת מקומית אחת להקמה, ניהול וצמיחה ברומניה.",
+        "cta": "עוד עלינו ←"
+      },
+      "finalCta": {
+        "title": "הצעד הבא שלכם ברומניה מתחיל כאן.",
+        "body": "בין אם אתם רק בוחנים את השוק, מתכננים להיכנס או רוצים להרחיב פעילות קיימת, נשמח לשמוע מה אתם מתכננים ולבחון איך נוכל לקדם את זה יחד.",
+        "cta": "בואו נדבר ←"
+      }
+    },
+    "servicesPage": {
+      "eyebrow": "מה אנחנו עושים",
+      "title": "מכניסה לשוק ועד לפעילות מלאה ברומניה.",
+      "subtitle": "אפשר להיעזר בנו בשירות ממוקד או לקבל מעטפת רחבה להקמה, ניהול ופיתוח של הפעילות.",
+      "items": [
+        { "title": "כניסה לשוק ואסטרטגיה", "desc": "מחקר שוק, בדיקת היתכנות, ניתוח תחרות, מיצוב ובניית תוכנית מעשית לכניסה לשוק הרומני. המטרה היא להבין את השוק, לקבל החלטות על בסיס מידע אמיתי ולבנות דרך ברורה מההזדמנות לפעילות בשטח." },
+        { "title": "פיתוח עסקי ושותפויות", "desc": "איתור לקוחות, שותפים ומפיצים, יצירת חיבורים עסקיים ופיתוח הזדמנויות מסחריות בשוק המקומי." },
+        { "title": "הקמת חברה ותפעול מקומי", "desc": "תיאום הקמת החברה והמערך המקומי, לרבות בנקאות, הנהלת חשבונות, שירותים משפטיים, ספקים, תשתיות ואנשי המקצוע הנדרשים לפעילות." },
+        { "title": "גיוס ובניית צוותים", "desc": "מיפוי השוק, איתור מועמדים, ראיונות, גיוס וקליטה, מהעובד הראשון ועד לבניית צוות מקומי מלא." },
+        { "title": "ניהול מקומי בכיר", "desc": "ניהול הפעילות בשטח בהתאם לצורך, כולל צוותים, ספקים, תקציבים, תפעול, קבלת החלטות מקומית ועבודה שוטפת מול המטה הבינלאומי." },
+        { "title": "ניהול בתקופות מעבר", "desc": "ניהול מקומי בתקופות של הקמה, צמיחה, שינוי ארגוני או מעבר, וכן בתקופה שבין מנהלים ועד לכניסתו של מנהל קבוע." },
+        { "title": "מסחר וגישה לשווקים", "desc": "איתור ספקים, יצרנים, מפיצים, קונים ושותפים עסקיים וליווי בפיתוח פעילות מסחרית חוצת גבולות." }
+      ],
+      "process": {
+        "eyebrow": "מהזדמנות לפעילות",
+        "steps": ["בוחנים", "מאמתים", "נכנסים", "בונים", "מפעילים", "צומחים"],
+        "note": "אפשר לעבוד איתנו בשלב אחד או לאורך הדרך כולה."
+      },
+      "ctaBlock": {
+        "title": "מתכננים פעילות ברומניה?",
+        "body": "ספרו לנו מה אתם רוצים להשיג ונבחן יחד את הדרך הנכונה להגיע לשם.",
+        "cta": "בואו נדבר ←"
+      }
+    },
+    "whyPage": {
+      "eyebrow": "ההזדמנות",
+      "title": "למה רומניה. ולמה עכשיו.",
+      "intro1": "רומניה מציעה לחברות בינלאומיות שילוב של גישה לשוק האירופי, כוח אדם איכותי, ניסיון בינלאומי, עלויות תפעול תחרותיות ומיקום אסטרטגי.",
+      "intro2": "לחברות שמחפשות בסיס להקמה, הרחבה או צמיחה באירופה, זה שוק שכדאי להכיר.",
+      "items": [
+        { "title": "גישה לשוק האיחוד האירופי", "desc": "רומניה היא חברה מלאה באיחוד האירופי ומאפשרת לחברות לפעול מתוך השוק האירופי ובמסגרת עסקית ורגולטורית אירופית." },
+        { "title": "כוח אדם איכותי", "desc": "מאגר רחב של אנשי מקצוע בתחומי הטכנולוגיה, ההנדסה, הפיננסים, השירותים והניהול, עם מרכזים עסקיים וטכנולוגיים משמעותיים בבוקרשט, קלוז' נאפוקה, יאשי וטימישוארה." },
+        { "title": "ניסיון בינלאומי", "desc": "אנשי מקצוע רבים ברומניה מגיעים עם ניסיון בחברות בינלאומיות, בצוותים רב תרבותיים ובעבודה מול הנהלות ומטות גלובליים." },
+        { "title": "עלויות תפעול תחרותיות", "desc": "עלויות כוח אדם מקצועי, משרדים ושירותים עסקיים נותרות תחרותיות ביחס לשווקים רבים במערב אירופה." },
+        { "title": "מיקום אסטרטגי באירופה", "desc": "מיקום נוח לפעילות במרכז ובמזרח אירופה, עם קישוריות טובה לשווקים מרכזיים ברחבי היבשת." },
+        { "title": "אקוסיסטם עסקי וטכנולוגי", "desc": "נוכחות משמעותית של חברות בינלאומיות לצד מגזרי טכנולוגיה, שירותים עסקיים ופעילות דיגיטלית מפותחים." }
+      ],
+      "ctaBlock": {
+        "title": "חושבים על רומניה כשוק הבא שלכם?",
+        "body": "בואו נבחן את ההזדמנות ונראה איך היא יכולה להשתלב בתוכניות הצמיחה שלכם.",
+        "cta": "בואו נדבר ←"
+      }
+    },
+    "bridgePage": {
+      "eyebrow": "פעילות עסקית חוצת גבולות",
+      "title": "שני שווקים. גשר עסקי אחד.",
+      "subtitle": "אנחנו מחברים בין חברות, מוצרים והזדמנויות עסקיות ברומניה ובישראל ומלווים את הדרך מהיכרות עם השוק ועד לפיתוח פעילות מסחרית.",
+      "israelToRomania": {
+        "title": "מישראל לרומניה",
+        "heading": "נכנסים לרומניה. בונים נכון מההתחלה.",
+        "intro": "לחברות ישראליות שרוצות להיכנס לשוק הרומני, להקים פעילות מקומית או להשתמש ברומניה כבסיס לצמיחה באירופה.",
+        "items": ["כניסה לשוק", "פיתוח עסקי", "הקמת פעילות", "גיוס ובניית צוותים", "איתור לקוחות ושותפים", "איתור ספקים ומפיצים", "תפעול וניהול מקומי", "יבוא ויצוא"]
+      },
+      "romaniaToIsrael": {
+        "title": "מרומניה לישראל",
+        "heading": "פותחים דלת לשוק הישראלי.",
+        "intro": "לחברות, יצרנים ועסקי טכנולוגיה מרומניה שרוצים לבחון את השוק הישראלי ולפתח בו פעילות עסקית.",
+        "items": ["בדיקת שוק", "איתור קונים", "איתור מפיצים", "חיבורים עסקיים", "פיתוח שותפויות", "ייצוג מסחרי", "יבוא ויצוא"]
+      },
+      "trade": {
+        "eyebrow": "מסחר חוצה גבולות",
+        "title": "מהחיבור הראשון ועד להזדמנות עסקית אמיתית.",
+        "items": [
+          { "title": "בדיקת שוק ומוצר", "desc": "בחינת ביקוש, מיצוב, תמחור ודרכי כניסה אפשריות לשוק." },
+          { "title": "איתור קונים ומפיצים", "desc": "איתור יבואנים, מפיצים, קמעונאים, לקוחות עסקיים ושותפים מסחריים." },
+          { "title": "איתור ספקים ויצרנים", "desc": "איתור ובחינה של ספקים, יצרנים ושותפי ייצור." },
+          { "title": "חיבורים עסקיים", "desc": "חיבור למקבלי החלטות ויצירת קשרים עסקיים רלוונטיים." },
+          { "title": "ליווי משא ומתן ועסקאות", "desc": "ליווי התהליך המסחרי, בחינת שותפים וקידום עסקאות." },
+          { "title": "יבוא ויצוא", "desc": "תיאום מול גורמי לוגיסטיקה, מכס, שירותים משפטיים ורגולציה בהתאם לצורך." }
+        ]
+      },
+      "ctaBlock": {
+        "title": "רואים הזדמנות עסקית בין רומניה לישראל?",
+        "body": "",
+        "cta": "בואו נדבר ←"
+      }
+    },
+    "aboutPage": {
+      "eyebrow": "מי אנחנו",
+      "title": "ניסיון בינלאומי. מומחיות מקומית. ביצוע בשטח.",
+      "p1": "אנחנו עובדים עם חברות בינלאומיות שרוצות להיכנס לרומניה, להקים פעילות, לבנות צוות מקומי או לקחת פעילות קיימת לשלב הבא.",
+      "p2": "אנחנו משלבים ניסיון עסקי וניהולי, היכרות עמוקה עם השוק ויכולת לחבר את כל מה שנדרש כדי להפוך תוכנית לפעילות שעובדת.",
+      "approach": {
+        "eyebrow": "הגישה שלנו",
+        "title": "כתובת אחת. ראייה של העסק כולו.",
+        "p1": "הקמת פעילות במדינה חדשה היא הרבה יותר מרישום חברה.",
+        "p2": "גיוס, תפעול, כספים, ספקים, תשתיות, שירותים משפטיים, קשרים מקומיים ופיתוח עסקי צריכים לעבוד יחד.",
+        "p3": "אנחנו מרכזים את התהליך, מחברים בין הגורמים השונים ומביאים את אנשי המקצוע הנכונים בהתאם לצורך."
+      },
+      "founder": {
+        "eyebrow": "אורי פינקו",
+        "role": "מייסדת",
+        "title": "כמעט שני עשורים של ניסיון עסקי וניהולי.",
+        "p1": "אורי פינקו היא מנהלת בכירה בעלת קרוב לשני עשורים של ניסיון בהקמה, פיתוח וניהול של פעילויות עסקיות ברומניה ובסביבה בינלאומית.",
+        "p2": "לאורך השנים הקימה פעילויות וצוותים מאפס והובילה תחומים הכוללים ניהול ותפעול, גיוס ומשאבי אנוש, כספים, ספקים, תשתיות ועבודה שוטפת מול הנהלות ומטות בינלאומיים.",
+        "p3": "הניסיון שלה משתרע על טכנולוגיה, עסקים דיגיטליים, טלקומוניקציה, לוגיסטיקה ופעילות בינלאומית, ומביא איתו הבנה מעשית של מה שנדרש כדי להיכנס לשוק חדש, לבנות פעילות, לנהל אותה ולהמשיך לצמוח."
+      },
+      "track": {
+        "eyebrow": "ניסיון מוכח",
+        "stats": [
+          { "number": "18+ שנים", "label": "ניסיון עסקי וניהולי", "sub": "" },
+          { "number": "500+", "label": "אנשי מקצוע שגויסו", "sub": "" },
+          { "number": "360°", "label": "מעטפת עסקית מקצה לקצה ברומניה", "sub": "" },
+          { "number": "100%", "label": "ליווי מעשי וביצוע בשטח", "sub": "" }
+        ]
+      },
+      "team": {
+        "eyebrow": "הצוות",
+        "title": "ניסיון רחב. צוות אחד.",
+        "p1": "לצד אורי פועל צוות רב תחומי של אנשי מקצוע מנוסים בתחומי ניהול ותפעול, גיוס ומשאבי אנוש, כספים וחשבונאות, שירותים משפטיים, טכנולוגיה ותשתיות, אדמיניסטרציה, רילוקיישן ותרגום.",
+        "p2": "כך הלקוח מקבל כתובת מקומית אחת שמבינה את התמונה המלאה, מרכזת את אנשי המקצוע הנכונים ודואגת שהדברים יתקדמו בפועל.",
+        "statement": "צוות מנוסה. ראייה מערכתית. פתרונות שעובדים. לקוחות שמצליחים."
+      },
+      "ctaBlock": {
+        "title": "מוכנים לצעד הבא ברומניה?",
+        "body": "ספרו לנו מה אתם רוצים לבנות.",
+        "cta": "בואו נדבר ←"
+      }
+    },
     "contact": {
       "eyebrow": "יצירת קשר",
-      "title": "שוקל את רומניה? התחל בשיחה.",
-      "body": "בין אם אתה בוחן את השוק הרומני, מחפש את השותף המקומי הראשון שלך, בונה צוות, בוחן הזדמנויות מסחר רומניה–ישראל, או כבר פועל כאן — בוא נגדיר יחד מה אתה באמת צריך בשטח.",
-      "email": "hello@orypinco.com",
-      "location": "פועל מרומניה",
-      "ctaPrimary": "בוא נדבר",
-      "ctaSecondary": "קבע שיחת היכרות",
+      "title": "בואו נדבר<br>מתכננים פעילות ברומניה?",
+      "body": "בין אם אתם רק בוחנים את השוק, מתכננים להיכנס לרומניה, בונים צוות או מחפשים שותף מקומי מנוסה, נשמח לשמוע מה אתם מתכננים ולבחון איך נוכל לעזור.",
+      "email": "Office@rainbow-xpress.com",
+      "phone": "+40 775 467 883",
       "form": {
-        "success": "תודה — ההודעה שלך נשלחה. נחזור אליך בקרוב.",
-        "message": "הודעה",
-        "error": "משהו השתבש. אנא שלח לנו אימייל ישירות.",
-        "interest": "מה אתה מחפש לעשות?",
         "name": "שם",
-        "submit": "שלח הודעה",
-        "sending": "שולח...",
-        "email": "אימייל עסקי",
         "company": "חברה",
+        "email": "אימייל עסקי",
+        "phone": "טלפון",
+        "interest": "איך נוכל לעזור?",
+        "message": "הודעה",
+        "submit": "שליחת הודעה",
+        "sending": "שולח...",
+        "success": "תודה — ההודעה שלך נשלחה. נחזור אליך בקרוב.",
+        "error": "משהו השתבש. אנא שלח לנו אימייל ישירות.",
         "options": [
-          "כניסה לרומניה",
+          "כניסה לשוק הרומני",
           "פיתוח עסקי",
-          "בניית צוות",
-          "מנהל מדינה חלקי",
-          "ניהול זמני",
-          "מסחר רומניה–ישראל",
-          "חיפוש מפיץ / קונה",
-          "איתור ספקים",
+          "הקמת חברה ותפעול",
+          "גיוס ובניית צוות",
+          "ניהול מקומי",
+          "ניהול בתקופת מעבר",
+          "רומניה ↔ ישראל",
+          "איתור ספקים / קונים / מפיצים",
           "אחר"
         ]
       }
     },
-    "nav": {
-      "services": "שירותים",
-      "bridge": "ישראל ↔ רומניה",
-      "why": "למה רומניה",
-      "about": "אודות",
-      "contact": "צור קשר",
-      "cta": "בוא נדבר"
-    },
-    "trade": {
-      "eyebrow": "שירותי מסחר חוצה גבולות",
-      "title": "מלווים את העסקה, מקצה לקצה",
-      "items": [
-        {
-          "title": "וולידציית שוק ומוצר",
-          "desc": "הערכת ביקוש, מיצוב תחרותי, תמחור ומסלולי כניסה אפשריים לשוק."
-        },
-        {
-          "title": "חיפוש מפיצים וקונים",
-          "desc": "איתור ופנייה למפיצים, יבואנים, קמעונאים, קונים עסקיים ושותפים מסחריים רלוונטיים."
-        },
-        {
-          "title": "איתור ספקים ויצרנים",
-          "desc": "איתור והערכה של ספקים, יצרנים ושותפי ייצור ברומניה או בישראל."
-        },
-        {
-          "title": "הכרויות מסחריות",
-          "desc": "פתיחת שיחות מול מקבלי החלטות רלוונטיים והנעת קשרים עסקיים מקומיים."
-        },
-        {
-          "title": "ליווי משא ומתן ועסקאות",
-          "desc": "ליווי דיונים מסחריים, הערכת שותפים, תנאים ופיתוח עסקאות."
-        },
-        {
-          "title": "תיאום ייבוא ייצוא",
-          "desc": "תיאום התהליך המסחרי מול ספקי שירותי מכס, לוגיסטיקה, משפט ורגולציה מתמחים, בהתאם לצורך."
-        }
-      ]
-    },
-    "why": {
-      "eyebrow": "ההזדמנות",
-      "title": "למה רומניה",
-      "subtitle": "שוק באיחוד האירופי עם הכישרון, מבנה העלויות והמיקום הדרושים לתמיכה בפעילות בינלאומית רצינית.",
-      "items": [
-        {
-          "title": "גישה לשוק האיחוד האירופי",
-          "desc": "רומניה היא מדינה חברה מלאה באיחוד האירופי, ומספקת לחברות שער תואם רגולציה לשוק האירופי הרחב."
-        },
-        {
-          "title": "כישרון טכנולוגי והנדסי",
-          "desc": "בסיס חינוכי ותיק בטכנולוגיה והנדסה, עם מרכזים מבוססים בבוקרשט, קלוז' נאפוקה, יאשי וטימישוארה."
-        },
-        {
-          "title": "כוח עבודה רב לשוני",
-          "desc": "סביבה עסקית שבה האנגלית נפוצה בתפקידים מקצועיים וטכנולוגיים, ותומכת בצוותים בינלאומיים ובתקשורת מול המטה."
-        },
-        {
-          "title": "סביבה תפעולית תחרותית",
-          "desc": "עלויות התפעול — כישרון, שטחי משרד ושירותים — נשארות תחרותיות ביחס למערב אירופה ולישראל."
-        },
-        {
-          "title": "מיקום אסטרטגי באירופה",
-          "desc": "מיקום מרכזי באירופה עם קישוריות טיסות ישירה ואזור זמן שחופף בנוחות גם לישראל וגם למערב אירופה."
-        },
-        {
-          "title": "כלכלה דיגיטלית צומחת ופוטנציאל כמרכז CEE",
-          "desc": "מגזר טכנולוגיה ושירותים דיגיטליים מתרחב, כאשר רומניה משמשת יותר ויותר כבסיס תפעולי למרכז ומזרח אירופה."
-        }
-      ]
-    },
-    "bridge": {
-      "eyebrow": "עסקים חוצי גבולות",
-      "sub": "רומניה ↔ ישראל",
-      "title": "שני שווקים. גשר עסקי אחד.",
-      "subtitle": "מכניסה לשוק ועד מסחר חוצה גבולות, אנחנו מחברים בין חברות, מוצרים, שותפים והזדמנויות בין רומניה לישראל.",
-      "colA": {
-        "title": "רומניה ← ישראל",
-        "intro": "עוזרים לחברות, יצרנים ועסקי טכנולוגיה מרומניה לגשת לשוק הישראלי באמצעות:",
-        "items": [
-          "וולידציית שוק",
-          "איתור קונים",
-          "חיפוש מפיצים",
-          "הכרויות מסחריות",
-          "פיתוח שותפים",
-          "קשרי ספקים",
-          "ייצוג מסחרי",
-          "תיאום ייבוא ייצוא"
-        ]
-      },
-      "colB": {
-        "title": "ישראל ← רומניה",
-        "intro": "עוזרים לחברות ישראליות להיכנס לרומניה ולגשת להזדמנויות בשוק האירופי הרחב יותר באמצעות:",
-        "items": [
-          "כניסה לשוק הרומני",
-          "פיתוח עסקי מקומי",
-          "איתור מפיצים וקונים",
-          "איתור ספקים",
-          "שותפויות מסחריות",
-          "גיוס",
-          "תפעול מקומי",
-          "ניהול מדינה חלקי",
-          "התמצאות רגולטורית",
-          "תיאום ייבוא ייצוא"
-        ]
-      },
-      "tags": [
-        "רומניה ↔ ישראל",
-        "כניסה לשוק",
-        "מסחר",
-        "ייבוא וייצוא",
-        "מיקור",
-        "מפיצים",
-        "קונים",
-        "פיתוח עסקי",
-        "ייצוג מסחרי"
-      ]
-    },
-    "track": {
-      "eyebrow": "רקורד מוכח",
-      "title": "נבנה בעולם האמיתי.",
-      "intro": "כמעט שני עשורים של ניסיון ניהולי בכיר מעשי בטכנולוגיה, עסקים דיגיטליים, טלקומוניקציה, לוגיסטיקה ותפעול בינלאומי.",
-      "stats": [
-        {
-          "number": "+18 שנים",
-          "label": "ניסיון עסקי",
-          "sub": ""
-        },
-        {
-          "number": "+500",
-          "label": "אנשי מקצוע שגויסו",
-          "sub": ""
-        },
-        {
-          "number": "360°",
-          "label": "תמיכה עסקית ברומניה",
-          "sub": ""
-        },
-        {
-          "number": "100%",
-          "label": "ליווי צמוד ללקוחות",
-          "sub": ""
-        }
-      ]
-    },
-    "about": {
-      "eyebrow": "אודות אורי פינקו",
-      "title": "ניסיון בכיר. ביצוע מקומי.",
-      "p1": "החברה נוסדה על ידי אורי פינקו, מנהלת עסקים בינלאומית בעלת ניסיון רב בבנייה, בהשקה ובניהול של פעילויות עסקיות ברומניה. לאחר שבנתה חברות וצוותים מאפס, היא משלבת אסטרטגיה עסקית, מומחיות בכניסה לשווקים וביצוע מקומי מעשי, כדי לעזור לחברות בינלאומיות להיווסד ולצמוח בהצלחה ברומניה. לאורי תואר דוקטור בכלכלה.",
-      "p2": "הצוות שלנו מביא יחד יותר מ-18 שנות ניסיון מעשי בליווי חברות, עסקים ויזמים בינלאומיים ברומניה. אנחנו עוזרים לחברות להפוך תוכניות לפעילות בפועל — מהצעדים הראשונים שלהן בשוק הרומני ועד לבניית וניהול צוותים מקומיים ותשתית עסקית הפועלים במלואם.",
-      "p3": "לאורך השנים ליווינו לקוחות בכניסה לשוק, בהקמת חברה, בגיוס עובדים, במשאבי אנוש, בתיאום כספים והנהלת חשבונות, בסוגיות משפטיות וציות, בתשתיות IT, בניהול מנהלי מקומי, ברילוקיישן, בתרגום ובתמיכה תפעולית שוטפת.",
-      "p4": "מאחורי כל פרויקט עומד צוות רב-תחומי של אנשי מקצוע מהימנים, עם מומחיות בתפעול עסקי, גיוס ומשאבי אנוש, הנהלת חשבונות וכספים, משפט וציות, תשתיות IT וטכנולוגיה, מנהלה, תרגום, רילוקיישן ותמיכה בשוק המקומי.\nכך הלקוחות שלנו נמנעים מהצורך לנהל מספר ספקים מנותקים. במקום זאת, יש להם שותף מקומי מהימן אחד, שמכיר את התמונה המלאה, מתאם בין אנשי המקצוע הנכונים, ומקדם את הפרויקט קדימה.",
-      "credentials": []
-    },
-    "how": {
-      "eyebrow": "איך זה עובד",
-      "title": "כניסה לשוק הרומני: מהזדמנות לפעילות מקומית מלאה",
-      "steps": [
-        {
-          "title": "גלה",
-          "desc": "הבנת השוק, ההזדמנות והמגבלות."
-        },
-        {
-          "title": "אמת",
-          "desc": "בדיקת הנחות ומיפוי מתחרים, לקוחות, שותפים, כישרון ודרישות רגולטוריות."
-        },
-        {
-          "title": "היכנס",
-          "desc": "בניית התשתית המסחרית והתפעולית."
-        },
-        {
-          "title": "בנה",
-          "desc": "גיוס אנשים והקמת ספקים, תהליכים ותשתית מקומית."
-        },
-        {
-          "title": "תפעל",
-          "desc": "הרצת הפעילות המקומית וחיבור בין הפעילות ברומניה למטה הבינלאומי."
-        },
-        {
-          "title": "הרחב או העבר",
-          "desc": "המשך בהנהלה חלקית או מעבר למבנה ניהולי רומני קבוע."
-        }
-      ]
-    },
-    "value": {
-      "title": "אתה לא צריך ארגון רומני לפני שיש לך עסק רומני.",
-      "p1": "כניסה למדינה חדשה כוללת, באופן מסורתי, גיוס הנהלה בכירה, איתור יועצים מקומיים, בניית קשרים עם ספקים, גיוס צוות והבנת אופן הפעולה של השוק — לרוב עוד לפני שידוע בדיוק למה תהפוך הפעילות המקומית.",
-      "p2": "אנחנו מספקים קודם כול את השכבה הבכירה המקומית הזו.",
-      "p3": "אנחנו בודקים את ההזדמנות, פותחים את הדלתות הנכונות, בונים את התשתית והצוות, ומריצים את הפעילות בשטח. ככל שהעסק צומח, אנחנו עוזרים להפוך את הדריסת הרגל הראשונית לארגון קבוע.",
-      "statement": "שוק אחד. צוות אחראי אחד. פונקציות מרובות.",
-      "tags": [
-        "אסטרטגיה",
-        "מסחר",
-        "אנשים",
-        "תפעול",
-        "רשת מקומית"
-      ]
-    },
-    "strategy": {
-      "eyebrow": "איך אנחנו עובדים",
-      "title": "אסטרטגיה בינלאומית. ביצוע רומני.",
-      "p1": "האתגר בהתרחבות בינלאומית לרוב אינו האסטרטגיה בלבד. הוא תרגום הציפיות של המטה להחלטות שעובדות בשטח, מקומית.",
-      "p2": "אנחנו פועלים בין שני העולמות, ומשלבים סטנדרטים ניהוליים בינלאומיים עם היכרות מעמיקה עם התרבות העסקית הרומנית, הכישרון, השותפים, הספקים והמוסדות המקומיים.",
-      "languages": [
-        "רומנית",
-        "אנגלית",
-        "עברית"
-      ],
-      "calloutLabel": "עבור חברות ישראליות",
-      "calloutBody": "תקשורת ישירה בעברית, בשילוב היכרות מעמיקה עם השוק הרומני וניסיון רב בעבודה בין מטה ישראלי לפעילות ברומניה."
-    },
-    "hero": {
-      "eyebrow": "לא ייעוץ. הצוות שלך בשטח.",
-      "title": "הגב התפעולי שלך <em>ברומניה</em>.",
-      "lead": "מכניסה לשוק ועד תפעול מקומי מלא, אנחנו מעניקים לחברות בינלאומיות את ההנהלה הבכירה, ההיכרות עם השוק המקומי ויכולת הביצוע הדרושות לבנייה ולצמיחה ברומניה.",
-      "lead2": "צוות אחד ואחראי. מהוולידציה הראשונה של השוק ועד אנשים, שותפויות, תפעול וניהול מדינה יומיומי.",
-      "quote": "תחשוב עלינו כמו על מנהל מדינה חלקי שלך ברומניה.",
-      "ctaPrimary": "בוא נדבר",
-      "ctaSecondary": "גלה את השירותים",
-      "tags": [
-        "SaaS",
-        "AI",
-        "סייבר",
-        "פינטק",
-        "HR Tech",
-        "iGaming",
-        "טכנולוגיית B2B"
-      ]
-    },
     "footer": {
-      "tagline": "כניסה לשוק הרומני וניהול מדינה חלקי",
+      "tagline": "השותף שלכם לצמיחה ברומניה",
       "rights": "כל הזכויות שמורות."
-    },
-    "industries": {
-      "eyebrow": "תעשיות שאנחנו עובדים איתן",
-      "title": "מגזרים, לא מגבלות",
-      "items": [
-        {
-          "icon": "saas",
-          "label": "SaaS"
-        },
-        {
-          "icon": "ai",
-          "label": "AI"
-        },
-        {
-          "icon": "cyber",
-          "label": "סייבר"
-        },
-        {
-          "icon": "fintech",
-          "label": "פינטק"
-        },
-        {
-          "icon": "hrtech",
-          "label": "HR Tech"
-        },
-        {
-          "icon": "igaming",
-          "label": "iGaming"
-        },
-        {
-          "icon": "b2b",
-          "label": "טכנולוגיית B2B"
-        },
-        {
-          "icon": "logistics",
-          "label": "לוגיסטיקה"
-        }
-      ]
-    },
-    "services": {
-      "eyebrow": "מה אנחנו עושים",
-      "title": "מקצה לקצה, מהפגישה הראשונה ועד תפעול מלא",
-      "subtitle": "אפשר לשתף פעולה איתנו בשלב בודד, או לאורך כל מסע הכניסה לשוק הרומני.",
-      "items": [
-        {
-          "title": "כניסה לשוק הרומני ואסטרטגיית Go to Market",
-          "desc": "מודיעין שוק, ניתוח תחרות, מיצוב שוק, התמצאות רגולטורית ומפת דרכים פרקטית לכניסה לשוק, שנבנתה במיוחד עבור רומניה."
-        },
-        {
-          "title": "פיתוח עסקי ושותפויות מקומיות",
-          "desc": "איתור שותפים ומפיצים, הכרויות עם לקוחות עסקיים, ייצוג מסחרי, בניית קשרים מקומיים ופיתוח עסקאות מהשיחה הראשונה ועד לחתימה על ההסכם."
-        },
-        {
-          "title": "הקמת חברה ותפעול מקומי",
-          "desc": "תיאום הקמת הישות המשפטית, בנקאות, הנהלת חשבונות, תמיכה משפטית, ספקים, תשתית משרדית וקשרים שוטפים עם המערכת העסקית המקומית."
-        },
-        {
-          "title": "גיוס ובניית צוות ברומניה",
-          "desc": "מיפוי כישרונות, איתור, ראיונות, גיוס וקליטה — מהגיוס האסטרטגי הראשון ועד לבניית צוות שלם ברומניה."
-        },
-        {
-          "title": "מנהל מדינה חלקי (Fractional Country Manager) לרומניה",
-          "desc": "הנהלה בכירה מקומית, מבלי שתזדקק לבנות מיד מבנה ניהולי מלא — הובלה תפעולית, פיקוח על תקציב, דיווח לבעלי עניין, הובלת צוות, קבלת החלטות מקומית, תיאום מול המטה, ניהול ספקים וביצוע תפעולי."
-        },
-        {
-          "title": "ניהול מדינה זמני (Interim)",
-          "desc": "הנהלה רומנית מנוסה בתקופות של כניסה לשוק, צמיחה מהירה, ארגון מחדש, מעבר, או בזמן שאתה מגייס מנהל מדינה קבוע."
-        },
-        {
-          "title": "מסחר וגישה לשוק רומניה–ישראל",
-          "desc": "תמיכה לחברות המעוניינות למכור, לרכוש, לייבא או לייצא מוצרים בין רומניה לישראל — איתור הזדמנויות, חיבור בין יצרנים, ספקים, מפיצים וקונים, הערכת שותפים, ותיאום הקשרים המסחריים הנדרשים כדי להביא את המוצרים בהצלחה לשוק."
-        }
-      ]
-    },
-    "who": {
-      "eyebrow": "עם מי אנחנו עובדים",
-      "title": "כניסה לשוק הרומני והתרחבות עסקית עבור חברות בינלאומיות",
-      "subtitle": "נקודות התחלה שונות. יעד אחד: פעילות מוצלחת בשטח.",
-      "items": [
-        {
-          "title": "בוחנים את רומניה",
-          "desc": "לחברות שבודקות אם רומניה מהווה את ההזדמנות המסחרית, התעסוקתית או התפעולית הנכונה."
-        },
-        {
-          "title": "נכנסים לשוק",
-          "desc": "לחברות שהחליטו להיכנס לרומניה וזקוקות למפעיל בכיר ואמין שיהפוך אסטרטגיה לביצוע."
-        },
-        {
-          "title": "בונים צוות ברומניה",
-          "desc": "לארגונים הזקוקים למיפוי כישרונות, גיוס, הנהלה ופיתוח ארגוני מקומי."
-        },
-        {
-          "title": "כבר פועלים ברומניה",
-          "desc": "לחברות בינלאומיות עם לקוחות, עובדים או שותפים ברומניה, הזקוקות להנהלה מקומית חזקה יותר, למבנה או לביצוע מסחרי."
-        },
-        {
-          "title": "בין מנהלי מדינה",
-          "desc": "לחברות הזקוקות להנהלה זמנית מנוסה בזמן גיוס מנהל מדינה מקומי קבוע."
-        },
-        {
-          "title": "מסחר ישראל ↔ רומניה",
-          "desc": "לחברות רומניות וישראליות המחפשות קונים, מפיצים, ספקים, יצרנים, שותפים או הזדמנויות מסחריות בשוק השני."
-        }
-      ]
     }
   }
 }
