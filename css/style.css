@@ -142,6 +142,21 @@ html[lang="he"] .hero {
     linear-gradient(to left, rgba(8,39,78,0.8), rgba(8,39,78,0.42) 60%),
     url('/images/hero-bucharest-he.webp') center center / cover no-repeat;
 }
+/* Tablet: the image is scaled up more to cover the taller hero, so shift the
+   crop window toward the Palace of Parliament / skyline (right-of-center in
+   the source photo) while still keeping some of the flags/globe in view. */
+@media (max-width: 900px) {
+  .hero { background-position: 62% center; }
+  html[lang="he"] .hero { background-position: 62% center; }
+}
+/* Mobile: hero is much taller than wide (stacked stats, wrapped headline),
+   so the cover crop narrows to a thin vertical slice of the photo. Prioritize
+   the Palace of Parliament / Bucharest skyline per the brief; the flags and
+   globe mostly fall out of frame at this width. */
+@media (max-width: 600px) {
+  .hero { background-position: 68% center; }
+  html[lang="he"] .hero { background-position: 68% center; }
+}
 .hero::before {
   content: ""; position: absolute; top: -140px; inset-inline-end: -160px;
   width: 560px; height: 560px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.08);
