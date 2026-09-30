@@ -1,7 +1,7 @@
 {
   "en": {
     "meta": { "email": "office@rainbow-xpress.com", "phone": "+40 775 467 883", "telLink": "0040775467883" },
-    "nav": { "services": "Services", "why": "Why Romania", "bridge": "Romania ↔ Israel", "about": "About", "cta": "LET’S TALK" },
+    "nav": { "services": "Services", "why": "Why Romania", "bridge": "Romania ↔ Israel", "about": "About", "insights": "Insights", "cta": "LET’S TALK" },
     "home": {
       "hero": {
         "eyebrow": "YOUR PARTNER FOR GROWTH IN ROMANIA",

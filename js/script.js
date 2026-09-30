@@ -154,6 +154,61 @@
     if (target) target.scrollIntoView({ behavior: "instant", block: "start" });
   }
 
+  function loadInsights() {
+    var grid = document.getElementById("insights-grid");
+    var nav = document.getElementById("article-nav");
+    if (!grid && !nav) return;
+    var lang = document.documentElement.getAttribute("lang") || "en";
+    fetch("/content/insights.json", { cache: "no-store" })
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .then(function (data) {
+        if (!data || !data[lang]) return;
+        if (grid) renderInsightsGrid(grid, data[lang].articles);
+        if (nav) renderArticleNav(nav, data[lang].articles, lang);
+        initReveals();
+      })
+      .catch(function () { /* keep baked-in fallback content */ });
+  }
+
+  function renderInsightsGrid(wrap, articles) {
+    if (!Array.isArray(articles)) return;
+    wrap.innerHTML = "";
+    articles.forEach(function (a) {
+      var card = el("div", "insight-card reveal");
+      card.innerHTML =
+        '<a href="/en/insights/' + a.slug + '/" class="insight-card-image"><img src="' + a.image + '" alt="" loading="lazy"></a>' +
+        '<h3><a href="/en/insights/' + a.slug + '/">' + a.title + '</a></h3>' +
+        '<p>' + a.excerpt + '</p>' +
+        '<a href="/en/insights/' + a.slug + '/" class="more-link">Read more &rarr;</a>';
+      wrap.appendChild(card);
+    });
+  }
+
+  function renderArticleNav(wrap, articles, lang) {
+    if (!Array.isArray(articles)) return;
+    var slug = wrap.getAttribute("data-current-slug");
+    var index = -1;
+    articles.forEach(function (a, i) { if (a.slug === slug) index = i; });
+    if (index === -1) return;
+    var prev = index > 0 ? articles[index - 1] : null;
+    var next = index < articles.length - 1 ? articles[index + 1] : null;
+    wrap.innerHTML = "";
+    if (prev) {
+      var prevLink = el("a", "article-nav-link");
+      prevLink.href = "/" + lang + "/insights/" + prev.slug + "/";
+      prevLink.innerHTML = '<span class="article-nav-dir">&larr; Previous</span><span class="article-nav-title">' + prev.title + '</span>';
+      wrap.appendChild(prevLink);
+    } else {
+      wrap.appendChild(el("span", ""));
+    }
+    if (next) {
+      var nextLink = el("a", "article-nav-link");
+      nextLink.href = "/" + lang + "/insights/" + next.slug + "/";
+      nextLink.innerHTML = '<span class="article-nav-dir">Next &rarr;</span><span class="article-nav-title">' + next.title + '</span>';
+      wrap.appendChild(nextLink);
+    }
+  }
+
   function initHeaderScroll() {
     var header = document.getElementById("site-header");
     if (!header) return;
@@ -239,5 +294,6 @@
     initReveals();
     initContactForm();
     loadContent();
+    loadInsights();
   });
 })();
