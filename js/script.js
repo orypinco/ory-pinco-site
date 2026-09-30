@@ -95,7 +95,7 @@
     var wrap = document.getElementById("hero-stats");
     if (!wrap || !Array.isArray(stats)) return;
     wrap.innerHTML = "";
-    stats.slice(0, 3).forEach(function (stat) {
+    stats.forEach(function (stat) {
       var card = el("div", "hero-stat");
       card.innerHTML = '<p class="n">' + stat.number + '</p><p class="l">' + stat.label + '</p>';
       wrap.appendChild(card);
