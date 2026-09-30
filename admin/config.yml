@@ -1,0 +1,274 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "content/uploads"
+public_folder: "/content/uploads"
+
+site_url: https://www.orypinco.com
+display_url: https://www.orypinco.com
+
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - file: "content/site.json"
+        label: "Site Text (English & Hebrew)"
+        name: "site"
+        fields:
+
+          - label: "English"
+            name: "en"
+            widget: "object"
+            fields: &lang_fields
+              - label: "Navigation"
+                name: "nav"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Services link", name: "services", widget: "string"}
+                  - {label: "Israel/Romania bridge link", name: "bridge", widget: "string"}
+                  - {label: "Why Romania link", name: "why", widget: "string"}
+                  - {label: "About link", name: "about", widget: "string"}
+                  - {label: "Contact link", name: "contact", widget: "string"}
+                  - {label: "Header CTA button", name: "cta", widget: "string"}
+
+              - label: "Hero"
+                name: "hero"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow (small line above headline)", name: "eyebrow", widget: "string"}
+                  - {label: "Headline (HTML ok, e.g. <em>word</em> for emphasis)", name: "title", widget: "string"}
+                  - {label: "Lead paragraph", name: "lead", widget: "text"}
+                  - {label: "Second paragraph", name: "lead2", widget: "text"}
+                  - {label: "Pull quote", name: "quote", widget: "string"}
+                  - {label: "Primary button", name: "ctaPrimary", widget: "string"}
+                  - {label: "Secondary button", name: "ctaSecondary", widget: "string"}
+                  - label: "Industry tags"
+                    name: "tags"
+                    widget: "list"
+                    field: {label: "Tag", name: "tag", widget: "string"}
+
+              - label: "Value Proposition Section"
+                name: "value"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Paragraph 1", name: "p1", widget: "text"}
+                  - {label: "Paragraph 2 (bold)", name: "p2", widget: "text"}
+                  - {label: "Paragraph 3", name: "p3", widget: "text"}
+                  - {label: "Statement (large italic line)", name: "statement", widget: "string"}
+                  - label: "Function tags"
+                    name: "tags"
+                    widget: "list"
+                    field: {label: "Tag", name: "tag", widget: "string"}
+
+              - label: "Services Section"
+                name: "services"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Subtitle", name: "subtitle", widget: "text"}
+                  - label: "Services"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.title}}"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "desc", widget: "text"}
+
+              - label: "Who I Work With Section"
+                name: "who"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Subtitle", name: "subtitle", widget: "text"}
+                  - label: "Client Types"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.title}}"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "desc", widget: "text"}
+
+              - label: "Israel/Romania Bridge Section"
+                name: "bridge"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Sub-label (e.g. Romania ↔ Israel)", name: "sub", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Subtitle", name: "subtitle", widget: "text"}
+                  - label: "Column A"
+                    name: "colA"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Intro line", name: "intro", widget: "text"}
+                      - label: "List items"
+                        name: "items"
+                        widget: "list"
+                        field: {label: "Item", name: "item", widget: "string"}
+                  - label: "Column B"
+                    name: "colB"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Intro line", name: "intro", widget: "text"}
+                      - label: "List items"
+                        name: "items"
+                        widget: "list"
+                        field: {label: "Item", name: "item", widget: "string"}
+                  - label: "Tag cloud"
+                    name: "tags"
+                    widget: "list"
+                    field: {label: "Tag", name: "tag", widget: "string"}
+
+              - label: "Cross-Border Trade Services Section"
+                name: "trade"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - label: "Services"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.title}}"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "desc", widget: "text"}
+
+              - label: "How It Works Section"
+                name: "how"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - label: "Steps"
+                    name: "steps"
+                    widget: "list"
+                    summary: "{{fields.title}}"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "desc", widget: "text"}
+
+              - label: "Track Record Section"
+                name: "track"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Intro", name: "intro", widget: "text"}
+                  - label: "Stats"
+                    name: "stats"
+                    widget: "list"
+                    summary: "{{fields.label}}"
+                    fields:
+                      - {label: "Number (e.g. 400%)", name: "number", widget: "string"}
+                      - {label: "Label", name: "label", widget: "string"}
+                      - {label: "Supporting text (optional)", name: "sub", widget: "string", required: false}
+
+              - label: "International Strategy Section"
+                name: "strategy"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Paragraph 1", name: "p1", widget: "text"}
+                  - {label: "Paragraph 2", name: "p2", widget: "text"}
+                  - label: "Languages spoken"
+                    name: "languages"
+                    widget: "list"
+                    field: {label: "Language", name: "language", widget: "string"}
+                  - {label: "Callout label", name: "calloutLabel", widget: "string"}
+                  - {label: "Callout body", name: "calloutBody", widget: "text"}
+
+              - label: "About Section"
+                name: "about"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Paragraph 1", name: "p1", widget: "text"}
+                  - {label: "Paragraph 2", name: "p2", widget: "text"}
+                  - {label: "Paragraph 3", name: "p3", widget: "text"}
+                  - {label: "Paragraph 4", name: "p4", widget: "text"}
+                  - label: "Credentials"
+                    name: "credentials"
+                    widget: "list"
+                    summary: "{{fields.main}}"
+                    fields:
+                      - {label: "Label (small caps)", name: "label", widget: "string"}
+                      - {label: "Main line", name: "main", widget: "string"}
+                      - {label: "Sub line (optional)", name: "sub", widget: "string", required: false}
+
+              - label: "Why Romania Section"
+                name: "why"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Subtitle", name: "subtitle", widget: "text"}
+                  - label: "Points"
+                    name: "items"
+                    widget: "list"
+                    summary: "{{fields.title}}"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "desc", widget: "text"}
+
+              - label: "Contact Section"
+                name: "contact"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Eyebrow", name: "eyebrow", widget: "string"}
+                  - {label: "Headline", name: "title", widget: "string"}
+                  - {label: "Body", name: "body", widget: "text"}
+                  - {label: "Email address", name: "email", widget: "string"}
+                  - {label: "Location line", name: "location", widget: "string"}
+                  - {label: "Primary CTA", name: "ctaPrimary", widget: "string"}
+                  - {label: "Secondary CTA", name: "ctaSecondary", widget: "string"}
+                  - label: "Form"
+                    name: "form"
+                    widget: "object"
+                    fields:
+                      - {label: "Name field label", name: "name", widget: "string"}
+                      - {label: "Company field label", name: "company", widget: "string"}
+                      - {label: "Email field label", name: "email", widget: "string"}
+                      - {label: "Interest field label", name: "interest", widget: "string"}
+                      - label: "Interest dropdown options"
+                        name: "options"
+                        widget: "list"
+                        field: {label: "Option", name: "option", widget: "string"}
+                      - {label: "Message field label", name: "message", widget: "string"}
+                      - {label: "Submit button", name: "submit", widget: "string"}
+                      - {label: "Sending status text", name: "sending", widget: "string"}
+                      - {label: "Success status text", name: "success", widget: "string"}
+                      - {label: "Error status text", name: "error", widget: "string"}
+
+              - label: "Footer"
+                name: "footer"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - {label: "Tagline", name: "tagline", widget: "string"}
+                  - {label: "Rights text", name: "rights", widget: "string"}
+
+          - label: "Hebrew (עברית)"
+            name: "he"
+            widget: "object"
+            fields: *lang_fields
