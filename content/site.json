@@ -153,23 +153,23 @@
       "intro": "Nearly two decades of hands on senior management experience across technology, digital businesses, telecommunications, logistics and international operations.",
       "stats": [
         {
-          "number": "400%",
-          "label": "Of First Year Commercial Target",
-          "sub": "Delivered while establishing and developing the Romanian market for an international technology business."
-        },
-        {
-          "number": "2×",
-          "label": "Profitability Within 12 Months",
-          "sub": "Turnaround of an underperforming Romanian operation through commercial development, cost control and operational restructuring."
-        },
-        {
-          "number": "10+ Years",
-          "label": "Leading Technology Operations in Romania",
-          "sub": "Senior responsibility spanning people, P&L, recruitment, finance coordination, compliance, infrastructure, suppliers and international headquarters."
-        },
-        {
           "number": "18+ Years",
-          "label": "International Management Experience",
+          "label": "Business Experience",
+          "sub": ""
+        },
+        {
+          "number": "500+",
+          "label": "Professionals Recruited",
+          "sub": ""
+        },
+        {
+          "number": "360°",
+          "label": "Business Support in Romania",
+          "sub": ""
+        },
+        {
+          "number": "100%",
+          "label": "Hands-On Client Support",
           "sub": ""
         }
       ]
@@ -517,23 +517,23 @@
       "intro": "כמעט שני עשורים של ניסיון ניהולי בכיר מעשי בטכנולוגיה, עסקים דיגיטליים, טלקומוניקציה, לוגיסטיקה ותפעול בינלאומי.",
       "stats": [
         {
-          "number": "400%",
-          "label": "מהיעד המסחרי של השנה הראשונה",
-          "sub": "הושג תוך הקמה ופיתוח של השוק הרומני עבור עסק טכנולוגי בינלאומי."
-        },
-        {
-          "number": "פי 2",
-          "label": "רווחיות תוך 12 חודשים",
-          "sub": "הבראה של פעילות רומנית חלשה באמצעות פיתוח מסחרי, בקרת עלויות וארגון תפעולי מחדש."
-        },
-        {
-          "number": "+10 שנים",
-          "label": "בהובלת פעילות טכנולוגית ברומניה",
-          "sub": "אחריות בכירה על אנשים, רווח והפסד, גיוס, תיאום פיננסי, ציות, תשתיות, ספקים ומטה בינלאומי."
-        },
-        {
           "number": "+18 שנים",
-          "label": "ניסיון בניהול בינלאומי",
+          "label": "ניסיון עסקי",
+          "sub": ""
+        },
+        {
+          "number": "+500",
+          "label": "אנשי מקצוע שגויסו",
+          "sub": ""
+        },
+        {
+          "number": "360°",
+          "label": "תמיכה עסקית ברומניה",
+          "sub": ""
+        },
+        {
+          "number": "100%",
+          "label": "ליווי צמוד ללקוחות",
           "sub": ""
         }
       ]
