@@ -110,7 +110,7 @@ collections:
                     widget: "list"
                     summary: "{{fields.label}}"
                     fields:
-                      - {label: "Icon", name: "icon", widget: "select", options: ["saas", "ai", "cyber", "fintech", "hrtech", "igaming", "b2b"]}
+                      - {label: "Icon", name: "icon", widget: "select", options: ["saas", "ai", "cyber", "fintech", "hrtech", "igaming", "b2b", "logistics"]}
                       - {label: "Label", name: "label", widget: "string"}
 
               - label: "Israel/Romania Bridge Section"

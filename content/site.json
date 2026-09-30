@@ -293,6 +293,10 @@
         {
           "icon": "b2b",
           "label": "B2B Technology"
+        },
+        {
+          "icon": "logistics",
+          "label": "Logistics"
         }
       ]
     },
@@ -657,6 +661,10 @@
         {
           "icon": "b2b",
           "label": "טכנולוגיית B2B"
+        },
+        {
+          "icon": "logistics",
+          "label": "לוגיסטיקה"
         }
       ]
     },

@@ -136,7 +136,8 @@
     fintech: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="20" r="12"/><path d="M20 13v14M23.5 16.3c0-1.8-1.6-2.8-3.5-2.8-2 0-3.5 1-3.5 2.6 0 3.6 7 1.8 7 5.4 0 1.7-1.6 2.7-3.5 2.7-2 0-3.6-1-3.6-2.8"/></svg>',
     hrtech: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="15" cy="15" r="4.5"/><circle cx="26" cy="17" r="3.5"/><path d="M7 31c0-4.4 3.6-8 8-8s8 3.6 8 8M23 31c0-3.4 2-6.2 5-7.4"/></svg>',
     igaming: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="14" width="24" height="14" rx="4"/><path d="M15 21h-4M13 19v4"/><circle cx="24" cy="19" r="1.2" fill="currentColor" stroke="none"/><circle cx="27" cy="22" r="1.2" fill="currentColor" stroke="none"/></svg>',
-    b2b: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="10" r="3.2"/><circle cx="9" cy="29" r="3.2"/><circle cx="31" cy="29" r="3.2"/><path d="M20 13.2v4.6M17.6 21.4L11.4 26M22.4 21.4l6.2 4.6"/></svg>'
+    b2b: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="20" cy="10" r="3.2"/><circle cx="9" cy="29" r="3.2"/><circle cx="31" cy="29" r="3.2"/><path d="M20 13.2v4.6M17.6 21.4L11.4 26M22.4 21.4l6.2 4.6"/></svg>',
+    logistics: '<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="15" width="17" height="11" rx="1"/><path d="M22 19h6l4 4v3h-10z"/><circle cx="12" cy="28" r="2.4"/><circle cx="27" cy="28" r="2.4"/></svg>'
   };
 
   function renderIndustries(items) {
