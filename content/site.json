@@ -33,14 +33,14 @@
     },
     "nav": {
       "services": "Services",
-      "bridge": "Israel ↔ SPANIA",
+      "bridge": "Israel ↔ Romania",
       "why": "Why Romania",
       "about": "About",
       "contact": "Contact",
       "cta": "Let's Talk"
     },
     "trade": {
-      "eyebrow": "Cross-Border Trade Services",
+      "eyebrow": "Cross Border Trade Services",
       "title": "Supporting the deal, end to end",
       "items": [
         {
@@ -57,7 +57,7 @@
         },
         {
           "title": "Commercial Introductions",
-          "desc": "Open conversations with relevant decision-makers and facilitate local business relationships."
+          "desc": "Open conversations with relevant decision makers and facilitate local business relationships."
         },
         {
           "title": "Negotiation & Deal Support",
@@ -80,7 +80,7 @@
         },
         {
           "title": "Technology & Engineering Talent",
-          "desc": "A long-standing base of technology and engineering education, with established hubs in Bucharest, Cluj-Napoca, Iași and Timișoara."
+          "desc": "A long standing base of technology and engineering education, with established hubs in Bucharest, Cluj Napoca, Iași and Timișoara."
         },
         {
           "title": "Multilingual Workforce",
@@ -101,10 +101,10 @@
       ]
     },
     "bridge": {
-      "eyebrow": "Cross-Border Business",
+      "eyebrow": "Cross Border Business",
       "sub": "Romania ↔ Israel",
       "title": "Two markets. One business bridge.",
-      "subtitle": "From market entry to cross-border trade, I connect companies, products, partners and opportunities between Romania and Israel.",
+      "subtitle": "From market entry to cross border trade, I connect companies, products, partners and opportunities between Romania and Israel.",
       "colA": {
         "title": "Romania → Israel",
         "intro": "Helping Romanian companies, manufacturers and technology businesses access the Israeli market through:",
@@ -150,11 +150,11 @@
     "track": {
       "eyebrow": "Track Record",
       "title": "Built in the real world.",
-      "intro": "Nearly two decades of hands-on senior management experience across technology, digital businesses, telecommunications, logistics and international operations.",
+      "intro": "Nearly two decades of hands on senior management experience across technology, digital businesses, telecommunications, logistics and international operations.",
       "stats": [
         {
           "number": "400%",
-          "label": "Of First-Year Commercial Target",
+          "label": "Of First Year Commercial Target",
           "sub": "Delivered while establishing and developing the Romanian market for an international technology business."
         },
         {
@@ -178,14 +178,14 @@
       "eyebrow": "About Ory Pinco",
       "title": "Senior experience. Local execution.",
       "p1": "I've spent nearly two decades building, managing and transforming businesses in Romania.",
-      "p2": "I've held Country Manager positions across technology, telecommunications and logistics, with direct responsibility spanning market development, P&L, recruitment, people operations, finance coordination, compliance, infrastructure and day-to-day country operations.",
+      "p2": "I've held Country Manager positions across technology, telecommunications and logistics, with direct responsibility spanning market development, P&L, recruitment, people operations, finance coordination, compliance, infrastructure and day to day country operations.",
       "p3": "That experience covers the full business lifecycle: entering new markets, building teams and commercial relationships, managing mature operations, turning around underperforming businesses and navigating complex organizational change.",
       "p4": "Today, that experience is available to international companies that need senior capability in Romania without having to build an entire local management structure from day one.",
       "credentials": [
         {
           "label": "Doctoral Candidate",
           "main": "Business & Managerial Economics",
-          "sub": "Babeș-Bolyai University"
+          "sub": "Babeș Bolyai University"
         },
         {
           "label": "Executive MBA",
@@ -275,7 +275,7 @@
       "eyebrow": "Not a Consultancy. Your Team on the Ground.",
       "title": "Your operational backbone <em>in Romania</em>.",
       "lead": "From market entry to a fully functioning local operation, I give international companies the senior leadership, local knowledge and execution capability they need to build and grow in Romania.",
-      "lead2": "One accountable partner. From first market validation to people, partnerships, operations and day-to-day country management.",
+      "lead2": "One accountable partner. From first market validation to people, partnerships, operations and day to day country management.",
       "quote": "Think of me as your Fractional Country Manager in Romania.",
       "ctaPrimary": "Let's Talk",
       "ctaSecondary": "Explore Services",
@@ -295,12 +295,12 @@
     },
     "services": {
       "eyebrow": "What I Do",
-      "title": "End-to-end, from first meeting to full operations",
+      "title": "End to end, from first meeting to full operations",
       "subtitle": "Engage me for a single step, or for the entire Romanian market entry journey.",
       "items": [
         {
-          "title": "Romania Market Entry & Go-to-Market Strategy",
-          "desc": "Market intelligence, competitive analysis, market positioning, regulatory orientation and a practical go-to-market roadmap designed specifically for Romania."
+          "title": "Romania Market Entry & Go to Market Strategy",
+          "desc": "Market intelligence, competitive analysis, market positioning, regulatory orientation and a practical go to market roadmap designed specifically for Romania."
         },
         {
           "title": "Business Development & Local Partnerships",
@@ -316,7 +316,7 @@
         },
         {
           "title": "Fractional Country Manager Romania",
-          "desc": "Senior local leadership without requiring you to immediately build a complete management structure — operational leadership, budget oversight, stakeholder reporting, team leadership, local decision-making, HQ coordination, supplier management and operational execution."
+          "desc": "Senior local leadership without requiring you to immediately build a complete management structure — operational leadership, budget oversight, stakeholder reporting, team leadership, local decision making, HQ coordination, supplier management and operational execution."
         },
         {
           "title": "Interim Country Management",
@@ -425,7 +425,7 @@
           "desc": "ליווי דיונים מסחריים, הערכת שותפים, תנאים ופיתוח עסקאות."
         },
         {
-          "title": "תיאום ייבוא-ייצוא",
+          "title": "תיאום ייבוא ייצוא",
           "desc": "תיאום התהליך המסחרי מול ספקי שירותי מכס, לוגיסטיקה, משפט ורגולציה מתמחים, בהתאם לצורך."
         }
       ]
@@ -441,10 +441,10 @@
         },
         {
           "title": "כישרון טכנולוגי והנדסי",
-          "desc": "בסיס חינוכי ותיק בטכנולוגיה והנדסה, עם מרכזים מבוססים בבוקרשט, קלוז'-נאפוקה, יאשי וטימישוארה."
+          "desc": "בסיס חינוכי ותיק בטכנולוגיה והנדסה, עם מרכזים מבוססים בבוקרשט, קלוז' נאפוקה, יאשי וטימישוארה."
         },
         {
-          "title": "כוח עבודה רב-לשוני",
+          "title": "כוח עבודה רב לשוני",
           "desc": "סביבה עסקית שבה האנגלית נפוצה בתפקידים מקצועיים וטכנולוגיים, ותומכת בצוותים בינלאומיים ובתקשורת מול המטה."
         },
         {
@@ -477,7 +477,7 @@
           "פיתוח שותפים",
           "קשרי ספקים",
           "ייצוג מסחרי",
-          "תיאום ייבוא-ייצוא"
+          "תיאום ייבוא ייצוא"
         ]
       },
       "colB": {
@@ -493,7 +493,7 @@
           "תפעול מקומי",
           "ניהול מדינה חלקי",
           "התמצאות רגולטורית",
-          "תיאום ייבוא-ייצוא"
+          "תיאום ייבוא ייצוא"
         ]
       },
       "tags": [
@@ -546,7 +546,7 @@
         {
           "label": "דוקטורנט",
           "main": "כלכלה עסקית וניהולית",
-          "sub": "אוניברסיטת Babeș-Bolyai"
+          "sub": "אוניברסיטת Babeș Bolyai"
         },
         {
           "label": "Executive MBA",
@@ -660,7 +660,7 @@
       "subtitle": "אפשר לשתף פעולה איתי בשלב בודד, או לאורך כל מסע הכניסה לשוק הרומני.",
       "items": [
         {
-          "title": "כניסה לשוק הרומני ואסטרטגיית Go-to-Market",
+          "title": "כניסה לשוק הרומני ואסטרטגיית Go to Market",
           "desc": "מודיעין שוק, ניתוח תחרות, מיצוב שוק, התמצאות רגולטורית ומפת דרכים פרקטית לכניסה לשוק, שנבנתה במיוחד עבור רומניה."
         },
         {
