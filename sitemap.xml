@@ -184,4 +184,32 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/romania-tax-basics/"/>
   </url>
 
+  <url>
+    <loc>https://www.orypinco.com/en/insights/israeli-companies-in-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/israeli-companies-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/israeli-companies-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/israeli-companies-in-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/israeli-companies-in-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/israeli-companies-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/israeli-companies-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/israeli-companies-in-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/en/insights/build-a-business-in-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/build-a-business-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/build-a-business-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/build-a-business-in-romania/"/>
+  </url>
+
+  <url>
+    <loc>https://www.orypinco.com/he/insights/build-a-business-in-romania/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orypinco.com/en/insights/build-a-business-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.orypinco.com/he/insights/build-a-business-in-romania/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orypinco.com/en/insights/build-a-business-in-romania/"/>
+  </url>
+
 </urlset>

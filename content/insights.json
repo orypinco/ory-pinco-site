@@ -47,6 +47,18 @@
         "title": "Romania Tax Basics: What International Companies Should Know Before Expanding",
         "excerpt": "Understanding the Romanian tax environment is an important part of planning a successful market entry.",
         "image": "/images/insights-tax-basics.webp"
+      },
+      {
+        "slug": "israeli-companies-in-romania",
+        "title": "Doing Business in Romania: What Israeli Companies Should Know",
+        "excerpt": "What Israeli companies need to know before entering the Romanian market, from entry model to local execution.",
+        "image": "/images/insights-israeli-companies-romania.webp"
+      },
+      {
+        "slug": "build-a-business-in-romania",
+        "title": "From Market Opportunity to Local Operation: How to Build a Business in Romania",
+        "excerpt": "Finding an opportunity in Romania is the easy part. Here's what it takes to turn it into a real operation.",
+        "image": "/images/insights-build-business-romania.webp"
       }
     ]
   },
@@ -98,6 +110,18 @@
         "title": "מיסוי ברומניה: מה חברות בינלאומיות צריכות לדעת לפני ההתרחבות",
         "excerpt": "הבנת סביבת המיסוי ברומניה היא חלק חשוב בתכנון כניסה מוצלחת לשוק.",
         "image": "/images/insights-tax-basics.webp"
+      },
+      {
+        "slug": "israeli-companies-in-romania",
+        "title": "עושים עסקים ברומניה: מה חברות ישראליות צריכות לדעת",
+        "excerpt": "מה חברות ישראליות צריכות לדעת לפני כניסה לשוק הרומני — מעבר לניירת, אל התפעול בפועל.",
+        "image": "/images/insights-israeli-companies-romania.webp"
+      },
+      {
+        "slug": "build-a-business-in-romania",
+        "title": "מהזדמנות בשוק לפעילות אמיתית: איך בונים עסק ברומניה",
+        "excerpt": "למצוא הזדמנות ברומניה זה קל. להפוך אותה לפעילות אמיתית זו העבודה האמיתית.",
+        "image": "/images/insights-build-business-romania.webp"
       }
     ]
   }
