@@ -279,11 +279,18 @@ html[dir="rtl"] .process-flow li::after { content: "\2190"; }
 .approach p { color: var(--muted); font-size: 1rem; margin: 0 0 16px; }
 
 .founder { padding: 90px 0; background: var(--white); }
-.founder-inner { max-width: 780px; }
+.founder-inner { max-width: 840px; }
+.founder-layout { display: grid; grid-template-columns: 220px 1fr; gap: 44px; align-items: start; }
+.founder-photo { aspect-ratio: 1 / 1; border-radius: 8px; overflow: hidden; background: var(--paper); }
+.founder-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .founder-kicker { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; flex-wrap: wrap; }
 .founder-kicker .eyebrow { margin: 0; }
 .founder-role { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
 .founder p { color: var(--muted); font-size: 1rem; margin: 0 0 16px; max-width: 720px; }
+@media (max-width: 620px) {
+  .founder-layout { grid-template-columns: 1fr; gap: 24px; }
+  .founder-photo { max-width: 180px; }
+}
 
 .team { padding: 90px 0; background: var(--paper); }
 .team-inner { max-width: 780px; }
