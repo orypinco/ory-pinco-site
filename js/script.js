@@ -5,6 +5,18 @@
     history.scrollRestoration = "manual";
   }
 
+  function isFormOrContact(target) {
+    return !!(target && target.closest && target.closest("input, textarea, select, .contact-details"));
+  }
+  ["copy", "cut", "dragstart"].forEach(function (type) {
+    document.addEventListener(type, function (e) {
+      if (!isFormOrContact(e.target)) e.preventDefault();
+    });
+  });
+  document.addEventListener("contextmenu", function (e) {
+    if (e.target && e.target.tagName === "IMG") e.preventDefault();
+  });
+
   function get(obj, path) {
     return path.split(".").reduce(function (acc, key) {
       return acc && acc[key] !== undefined ? acc[key] : null;
