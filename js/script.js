@@ -79,10 +79,10 @@
     var phoneLinkText = document.getElementById("contact-phone");
     var phoneLinkAnchor = document.getElementById("contact-phone-link");
     var phone = get(dict, "meta.phone") || get(dict, "contact.phone");
-    var telLink = get(dict, "meta.telLink");
+    var waLink = get(dict, "meta.waLink");
     if (phoneLinkText && phone) {
       phoneLinkText.textContent = phone;
-      if (phoneLinkAnchor && telLink) phoneLinkAnchor.setAttribute("href", "tel:" + telLink);
+      if (phoneLinkAnchor && waLink) phoneLinkAnchor.setAttribute("href", "https://wa.me/" + waLink);
     }
   }
 

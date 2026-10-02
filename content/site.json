@@ -1,6 +1,6 @@
 {
   "en": {
-    "meta": { "email": "office@rainbow-xpress.com", "phone": "+40 775 467 883", "telLink": "0040775467883" },
+    "meta": { "email": "office@rainbow-xpress.com", "phone": "+40 726 666 850", "waLink": "40726666850" },
     "nav": { "services": "Services", "why": "Why Romania", "bridge": "Romania ↔ Israel", "about": "About", "insights": "Insights", "cta": "LET’S TALK" },
     "home": {
       "hero": {
@@ -211,7 +211,7 @@
       "title": "Considering Romania? Let’s talk.",
       "body": "Whether you are evaluating the Romanian market, preparing to establish operations, building a team or looking for a trusted local partner, tell us what you are planning and let’s see how we can help.",
       "email": "office@rainbow-xpress.com",
-      "phone": "+40 775 467 883",
+      "phone": "+40 726 666 850",
       "form": {
         "name": "Name",
         "company": "Company",
@@ -242,7 +242,7 @@
     }
   },
   "he": {
-    "meta": { "email": "office@rainbow-xpress.com", "phone": "+40 775 467 883", "telLink": "+40775467883" },
+    "meta": { "email": "office@rainbow-xpress.com", "phone": "+40 726 666 850", "waLink": "40726666850" },
     "nav": { "services": "מה אנחנו עושים", "why": "למה רומניה", "bridge": "דסק ישראל", "about": "אודות", "insights": "תובנות", "cta": "בואו נדבר" },
     "home": {
       "hero": {
@@ -448,7 +448,7 @@
       "title": "מתכננים להקים פעילות ברומניה?<br>בואו נדבר.",
       "body": "ספרו לנו מה אתם מתכננים, ונבחן יחד איך נוכל לעזור לכם להקים, לנהל ולפתח את הפעילות ברומניה.",
       "email": "office@rainbow-xpress.com",
-      "phone": "+40 775 467 883",
+      "phone": "+40 726 666 850",
       "form": {
         "name": "שם מלא",
         "company": "חברה",
